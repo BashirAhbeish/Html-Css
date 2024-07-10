@@ -88,7 +88,7 @@ span {
 }
 table, th, tr, td {
   border-style: solid;
-  background-color: rgb(210, 180, 140);
+  background-color: rgba(210, 180, 140, 0.2);
 }
 th {
   background-color: rgba(210, 180, 140, 0.9);
