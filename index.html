@@ -12,9 +12,9 @@
 <h1><a href="index.html">my knowledge AboutHTML, CSS, JavaScript</a></h1>
 <details>
   <summary> Content List </summary>
-  <ul id="list">
+  <ul>
     <li class="list-content"><a href="#html"> HTML </a></li><br>
-    <li class="list-content"><a href="#!"> ! </a></li>
+    <li class="list-content"><a href="#!" external> ! </a></li>
     <li class="list-content"><a href="#a"> A </a></li>
     <li class="list-content"><a href="#b"> B </a></li>
     <li class="list-content"><a href="#c"> C </a></li>
@@ -44,12 +44,25 @@
            <code> &lt;!DOCTYPE></code><span><strong>attributes:</strong></span><br><br><br>
             </fieldset></section>
             
-      <section>
+     <section>
       <fieldset>
         <legend id="a"><h2>A</h2></legend>
-           <code id="<a>"> &lt;a> &lt;a/> </code>      <span><strong>attributes:</strong> <a href="#href">href</a>, <a href="#download">download</a>, <a href="#hreflang">hreflang </a>, <a href="#ping">Ping</a>, <a href="#media"> media </a> ,target="_blank<br><strong>Notes:</strong>
+        
+           <code id="aa"> &lt;a> &lt;/a> </code>      <span><strong>attributes:</strong><a href="#download"> download</a>, <a href="#href">href</a>, <a href="#hreflang">hreflang</a>, <a href="#media">media</a>, <a href="#ping">Ping</a>,<a href="#rel"> rel</a>,<a href="#target"> target</a>,<a href="#type"> type</a><br><br><strong>Notes:</strong>
            </span><br><br><br>
-           <code> &lt;article> &lt;article/> </code><span><strong>attributes:</strong> href, target="_blank </span><br><br><br>
+           
+           <code id="abbr"> &lt;abbr> &lt;/abbr></code><span><strong>attributes:</strong> <a href="#title">title</a></span><br><br><br>
+           
+           <code id="address>"> &lt;address> &lt;/address></code><span><strong>attributes:</strong></span><br><br><br>
+           
+           <code id="area"> &lt;area> &lt;/area></code><span><strong>attributes:</strong> <a href="#alt">alt</a>,<a href="#coords"> coords</a>, <a href="#download"> download</a>, <a href="#href"> href</a>,<a href="#hreflang"> hreflang</a>, <a href="#media"> media</a>, <a href="#rel">rel</a>, <a href="#shape"> shape</a>,<a href="#target"> targrt</a>, <a href="#type">type</a></span><br><br><br>
+           
+           <code id="article"> &lt;article> &lt;/article> </code><span><strong>attributes:</strong>  </span><br><br><br>
+           
+           <code id="aside"> &lt;aside> &lt;/aside> </code><span><strong>attributes:</strong>  </span><br><br><br>
+           
+           <code id="audio"> &lt;audio> &lt;/audio> </code><span><strong>attributes:</strong>  </span><br><br><br>
+           
       </fieldset>
     </section>
     
@@ -120,25 +133,89 @@
       <fieldset>
         <legend id="attributes"><h2>Attributes</h2></legend>
         
+          <code id="alt">alt</code><span><strong>Elements:</strong> <a href="#area">&lt;area></a> <br><strong>Examples:</strong><br><strong>Attribute Values</strong>
+          </span><br><br><br>
+        
          <code id="href"> href="Link | ID or CLASS address"</code> <span><strong>
-           Elements: </strong> <a href="#a">&lt;a></a>	 &lt;area>	 &lt;base>	 &lt;link><br>
+           Elements: </strong> <a href="#aa">&lt;a></a>	 &lt;area>	 &lt;base>	 &lt;link><br>
            <strong>Tip:</strong> You can use href="#top" or href="#" to link to the top of the current page!. <br> you can use an image as a link. <br> to link to an email address: href="mailto:someone@example.com"
            <br> a phone number: <br>
            href="tel:+4733378901" <br> a JavaScript:<br>href="javascript:alert('Hello World!');"
          </span><br><br><br>
          
-         <code id="download">download</code><span><strong>Elements:</strong> <a href="#<a>">&lt;a></a>, area <br><strong>Examples:</strong>       to Specify a name for the downloaded file: <br> download="اسم الملف"</span><br><br><br> 
+         <code id="download">download</code><span><strong>Elements:</strong> <a href="#aa">&lt;a></a>, area <br><strong>Examples:</strong>       to Specify a name for the downloaded file: <br> download="اسم الملف"</span><br><br><br> 
          
-          <code id="hreflang">hreflang</code><span><strong>Elements:</strong> <a href="#a">&lt;a></a> <br><strong>Examples:</strong> hreflang="en" </span><br><br><br> 
+          <code id="hreflang">hreflang</code><span><strong>Elements:</strong> <a href="#aa">&lt;a></a> <br><strong>Examples:</strong> hreflang="en" </span><br><br><br> 
           
           <code id="media">media</code><span><strong>Elements:</strong>
-          <a href="#a">&lt;a></a> <br><strong>Examples:</strong> </span><br><br><br> 
-          <code id="ping">Ping</code><span><strong>Elements:</strong>
-          <a href="#a">&lt;a></a> <br><strong>Examples:</strong> </span><br><br><br> 
+          <a href="#aa">&lt;a></a> <br><strong>Examples:</strong> <br> <strong>Values	Description:</strong>
+"and"	(Specifies an AND operator)
+"not"	(Specifies a NOT operator)
+","	(Specifies an OR operator) </span><br><br><br> 
+          <code id="ping">ping</code><span><strong>Elements:</strong>
+          <a href="#aa">&lt;a></a> <br><strong>Examples:</strong> </span><br><br><br> 
+          <code id="rel">rel</code><span><strong>Elements:</strong>
+          <a href="#aa">&lt;a></a> <br><strong>Examples:</strong><br><strong>Attribute Values</strong>
+          </span>
+          <table>
+            <thead>
+                <tr> 
+                <th>Value</th> <th>Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>alternate</td>
+                <td> Provides a link to an alternate representation of the document (i.e. print page, translated or mirror)</td></tr>
+                <tr><td>author  </td>
+                <td>Provides a link to the author of the document  </td>
+                </tr>
+                <tr> <td>bookmark </td> <td>Permanent URL used for bookmarking </td></tr>
+                <tr> <td>external </td> <td> Indicates that the referenced document is not part of the same site as the current document</td></tr>
+                <tr> <td> help</td> <td>Provides a link to a help document </td></tr>
+                <tr> <td>license </td> <td> Provides a link to licensing information for the document</td></tr>
+                <tr> <td> next</td> <td>Provides a link to the next document in the series </td></tr>
+                <tr> <td>nofollow </td> <td> Links to an unendorsed document, like a paid link.  ("nofollow" is used by Google, to specify that the Google search spider should not follow that link) </td></tr>
+                <tr> <td> noopener</td> <td> Requires that any browsing context created by following the hyperlink must not have an opener browsing context</td></tr>
+                <tr> <td> noreferrer</td> <td> Makes the referrer unknown. No referer header will be included when the user clicks the hyperlink</td></tr>
+                <tr> <td> prev</td> <td>The previous document in a selection </td></tr>
+                <tr> <td> search</td> <td> Links to a search tool for the document </td></tr>
+                <tr> <td>tag </td> <td>A tag (keyword) for the current document </td></tr>
+                
+              </tbody>
+          </table>
+          <br><br><br> 
+          
+                    <code id="target">target</code><span><strong>Elements:</strong> <a href="#aa">&lt;a></a> <br><strong>Examples:</strong><br><strong>Attribute Values</strong>
+          </span><br><br><br>
+          <table> 
+          <thead>
+            <tr> 
+            <th>Value</th><th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr> <td>_blank</td> <td> Opens the linked document in a new window or tab</td></tr>
+            <tr> <td> _self</td> <td>Opens the linked document in the same frame as it was clicked (this is default) </td></tr>
+            <tr> <td> _parent</td> <td>Opens the linked document in the parent frame </td></tr>
+            <tr> <td>_top</td> <td>Opens the linked document in the full body of the window</td></tr>
+            <tr> <td>framename</td> <td>Opens the linked document in the named iframe</td></tr>
+          </tbody>
+          </table>
+          
+          <code id="type">type</code><span><strong>Elements:</strong> <a href="#aa">&lt;a></a> <br><strong>Examples:</strong><br><strong>Attribute Values</strong>
+          </span><br><br><br>
+          
+          <code id="title">title</code><span><strong>Elements:</strong> <a href="#abbr">&lt;abbr></a> <br><strong>Examples:</strong><br><strong>Attribute Values</strong>
+          </span><br><br><br>
+          
+          <code id="coords">coords</code><span><strong>Elements:</strong> <a href="#area">&lt;area></a> <br><strong>Examples:</strong><br><strong>Attribute Values</strong>
+          </span><br><br><br>
+          
+          <code id="shape">shape</code><span><strong>Elements:</strong> <a href="">&lt;</a> <br><strong>Examples:</strong><br><strong>Attribute Values</strong>
+          </span><br><br><br>
           
          </fieldset>
     </section>
-
   </article>
 </main>
 </body>
