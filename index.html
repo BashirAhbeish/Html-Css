@@ -9,10 +9,12 @@
   </head>
 <body>
 <header>
-<h1><a href="index.html">my knowledge AboutHTML, CSS, JavaScript</a></h1>
+<h1>
+  <a id="h1" href="index.html">HTML Elements and their Atrributes</a>
+</h1>
 <details>
   <summary> Content List </summary>
-  <ul>
+  <nav><ul>
     <li class="list-content"><a href="#html"> HTML </a></li><br>
     <li class="list-content"><a href="#!" external> ! </a></li>
     <li class="list-content"><a href="#a"> A </a></li>
@@ -20,44 +22,73 @@
     <li class="list-content"><a href="#c"> C </a></li>
     <li class="list-content"><a href="#d"> D </a></li>
     <li class="list-content"><a href="#e"> E </a></li>
+    <li class="list-content"><a href="#f"> F </a></li>
+    <li class="list-content"><a href="#h"> H </a></li>
+    <li class="list-content"><a href="#i"> I </a></li>
+    <li class="list-content"><a href="#k"> K </a></li>
+    <li class="list-content"><a href="#l"> L </a></li>
+    <li class="list-content"><a href="#m"> M </a></li>
+    <li class="list-content"><a href="#n"> N </a></li>
+    <li class="list-content"><a href="#o"> O </a></li>
+    <li class="list-content"><a href="#p"> P </a></li>
+    <li class="list-content"><a href="#q"> Q </a></li>
+    <li class="list-content"><a href="#r"> R </a></li>
+    <li class="list-content"><a href="#s"> S </a></li>
+    <li class="list-content"><a href="#t"> T </a></li>
+    <li class="list-content"><a href="#u"> U </a></li>
+    <li class="list-content"><a href="#v"> V </a></li>
+    <li class="list-content"><a href="#w"> W </a></li>
+    <li class="list-content"><a href="#block-level-element"> Block Level Elements </a></li>
+    <li class="list-content"><a href="#inline-level-element"> Inline Level Elements </a></li>
     <li class="list-content"><a href="#attributes"> attributes </a></li>
-  </ul>
-</details></header>
+    <li class="list-content"><a href="#global-attributes"> Global Attributes </a></li>
+  </ul></nav>
+</details>
+</header>
 <main>
   <article>
     <h2 id="html">HTML Elements, attributes.</h2>
     <section>
       <fieldset>
+        
         <legend id="!"><h2>!</h2></legend>
-           <code> &lt;!--تعليق--> </code>      <span><strong>attributes:</strong> None.
-           <br><strong>Notes:</strong> You can use the comment tag to "hide" scripts from browsers without support for scripts (so they don't show them as plain text): <pre>
-           &lt;!--
-           function displayMsg() {
-            alert("Hello World!")
-            }
-              //-->
-           The two forward slashes at the end of comment
-           line (//) is the JavaScript comment symbol.
-           This prevents JavaScript from executing the -->
-           tag.
+        
+           <code> &lt;!--تعليق--> </code>      <span><strong>attributes:</strong> None. <br><strong>Notes:</strong> You can use the comment tag to "hide" scripts from browsers without support for scripts (so they don't show them as plain text): <pre>
+       &lt;!--
+       function displayMsg() {
+       alert("Hello World!")
+        }
+       //-->
+       The two forward slashes at the 
+       end of comment line (//) is
+       the JavaScript comment symbol.
+       This prevents JavaScript from 
+        executing the --> tag.
             </pre></span><br><br><br>
-           <code> &lt;!DOCTYPE></code><span><strong>attributes:</strong></span><br><br><br>
-            </fieldset></section>
+            
+           <code> &lt;!DOCTYPE></code><span><strong>Example: </strong><textarea contenteditable="">&lt;!doctype html> to announce the language of the document is in HTML5</textarea><br><strong>attributes:</strong></span><br><br><br>
+           
+       </fieldset>
+     </section>
             
      <section>
       <fieldset>
+        
         <legend id="a"><h2>A</h2></legend>
         
-           <code id="aa"> &lt;a> &lt;/a> </code>      <span><strong>attributes:</strong><a href="#download"> download</a>, <a href="#href">href</a>, <a href="#hreflang">hreflang</a>, <a href="#media">media</a>, <a href="#ping">Ping</a>,<a href="#rel"> rel</a>,<a href="#target"> target</a>,<a href="#type"> type</a><br><br><strong>Notes:</strong>
-           </span><br><br><br>
+           <code id="aa"> &lt;a> &lt;/a> </code>      <span><strong>attributes:</strong><a href="#download"> download</a>, <a href="#href">href</a>, <a href="#hreflang">hreflang</a>, <a href="#media">media</a>, <a href="#ping">Ping</a>,<a href="#rel"> rel</a>,<a href="#target"> target</a>,<a href="#type"> type</a><br><br><strong>Notes:</strong></span><br><br><br>
            
-           <code id="abbr"> &lt;abbr> &lt;/abbr></code><span><strong>attributes:</strong> <a href="#title">title</a></span><br><br><br>
+           <code id="abbr"> &lt;abbr> &lt;/abbr></code><span><strong>attributes:</strong> <a href="#title-attribute">title</a></span><br><br><br>
            
            <code id="address>"> &lt;address> &lt;/address></code><span><strong>attributes:</strong></span><br><br><br>
            
            <code id="area"> &lt;area> &lt;/area></code><span><strong>attributes:</strong> <a href="#alt">alt</a>,<a href="#coords"> coords</a>, <a href="#download"> download</a>, <a href="#href"> href</a>,<a href="#hreflang"> hreflang</a>, <a href="#media"> media</a>, <a href="#rel">rel</a>, <a href="#shape"> shape</a>,<a href="#target"> targrt</a>, <a href="#type">type</a></span><br><br><br>
            
-           <code id="article"> &lt;article> &lt;/article> </code><span><strong>attributes:</strong>  </span><br><br><br>
+           <code id="article"> &lt;article> &lt;/article> </code><span><strong>Description;</strong><textarea>used for independent content that is reuseable outside context of the document</textarea><br><strong>attributes:</strong><br><strong>Parent: </strong><a href="#section"> Section</a><br><strong>Child: </strong><a href="#section"> Section (most common)</a>  </span><br><br><br>
+           
+           
+           
+           
            
            <code id="aside"> &lt;aside> &lt;/aside> </code><span><strong>attributes:</strong>  </span><br><br><br>
            
@@ -68,79 +99,419 @@
     
     <section>
       <fieldset>
+        
         <legend id="b"><h2>B</h2></legend>
-         <code> </code>
+         
+         <code id="bb"> &lt;b> &lt;/b> </code><span><strong>attributes:</strong>  </span><br><br><br>
+         
+         <code id="base"> &lt;base> &lt;/base> </code><span><strong>attributes:</strong>  </span><br><br><br>
+         
+         <code id="bdi"> &lt;bdi> &lt;/bdi> </code><span><strong>attributes:</strong>  </span><br><br><br>
+         
+         <code id="bdo"> &lt;bdo> &lt;/bdo> </code><span><strong>attributes:</strong>  </span><br><br><br>
+         
+         <code id="blockquote"> &lt;blockquote> &lt;/blockquote> </code><span><strong>attributes:</strong>  </span><br><br><br>
+         
+         <code id="body"> &lt;body> &lt;/body> </code><span><strong>attributes:</strong>  </span><br><br><br>
+         
+         <code id="br"> &lt;br> </code><span><textarea>Break line (new line starter)</textarea><strong>attributes:</strong>  </span><br><br><br>
+         
+         <code id="button"> &lt;button> &lt;/button> </code><span><strong>attributes:</strong>  </span><br><br><br>
+         
       </fieldset>
     </section>
     
     <section>
       <fieldset>
+        
         <legend id="c"><h2>C</h2></legend>
-         <code>  </code>
+        
+         <code id="canvas"> &lt;canvas> &lt;/canvas></code><strong> </strong> <span> </span><br><br><br>
+         
+         <code id="caption"> &lt;caption> &lt;/caption></code><strong> </strong> <span> </span><br><br><br>
+         
+         <code id="cite"> &lt;cite> &lt;/cite></code><strong> </strong> <span> </span><br><br><br>
+         
+         <code id="code"> &lt;code> &lt;/code></code><strong> </strong> <span> </span><br><br><br>
+         
+         <code id="col"> &lt;col> &lt;/col></code><strong> </strong> <span> </span><br><br><br>
+         
+         <code id="colgroup"> &lt;colgroup> &lt;/colgroup></code><strong> </strong> <span> </span><br><br><br>
+         
       </fieldset>
     </section>
     
     <section>
       <fieldset>
+        
         <legend id="d"><h2>D</h2></legend>
-         <code>  </code>
+        
+          <code id="data"> &lt;data> &lt;/data></code><strong> </strong> <span> </span><br><br><br>
+        
+          <code id="datalist"> &lt;datalist> &lt;/datalist></code><strong> </strong> <span> </span><br><br><br>
+          <code id="dd"> &lt;dd> &lt;/dd></code><strong> </strong> <span> </span><br><br><br>
+          
+          <code id="del"> &lt;del> &lt;/del></code><strong> </strong> <span> </span><br><br><br>
+          
+          <code id="details"> &lt;details> &lt;/details></code><strong> </strong> <span> </span><br><br><br>
+          
+          <code id="dfn"> &lt;dfn> &lt;/dfn></code><strong> </strong> <span> </span><br><br><br>
+          
+          <code id="dialog"> &lt;dialog> &lt;/dialog></code><strong> </strong> <span> </span><br><br><br>
+          
+          <code id="div"> &lt;div> &lt;/div></code><strong> </strong> <span> </span><br><br><br>
+          
+          <code id="dl"> &lt;dl> &lt;/dl></code><strong> </strong> <span> </span><br><br><br>
+          
+          <code id="dt"> &lt;dt> &lt;/dt></code><strong> </strong> <span> </span><br><br><br>
+          
+          
+         
       </fieldset>
     </section>
     
     <section>
       <fieldset>
+        
         <legend id="e"><h2>E</h2></legend>
-         <code>  </code>
+        
+         <code id="em"> &lt;em> &lt;/em></code><strong> </strong> <span> </span><br><br><br>
+         
+         <code id="embed"> &lt;embed> &lt;/embed></code><strong> </strong> <span> </span><br><br><br>
+         
       </fieldset>
     </section>
     
     <section>
       <fieldset>
+        
         <legend id="f"><h2>F</h2></legend>
-         <code>  </code>
+        
+         <code id="fieldset"> &lt;fieldset> &lt;/fieldset></code><strong> </strong> <span> </span><br><br><br>
+         
+         <code id="figcaption"> &lt;figcaption> &lt;/figcaption></code><strong> </strong> <span> </span><br><br><br>
+         
+         <code id="figure"> &lt;figure> &lt;/figure></code><strong> </strong> <span> </span><br><br><br>
+         
+         <code id="footer"> &lt;footer> &lt;/footer></code><span><textarea>info in the end of the page, copyright, important links, contact info</textarea><strong> </strong>  </span><br><br><br>
+         
+         <code id="form"> &lt;form> &lt;/form></code><strong> </strong> <span> </span><br><br><br>
+         
       </fieldset>
     </section>
     
     <section>
       <fieldset>
-        <legend id="g"><h2>G</h2></legend>
-         <code>  </code>
-      </fieldset>
-    </section>
-    
-    <section>
-      <fieldset>
+        
         <legend id="h"><h2>H</h2></legend>
-         <code>  </code>
+        
+         <code id="h1-to-h6"> &lt;h1> to &lt;h6> ..... &lt;/h1> to &lt;/h6></code><strong> </strong> <span> </span><br><br><br>
+         
+         <code id="head"> &lt;head> &lt;/head></code><span><strong>Parent: </strong><a href="#html-element">html</a><br><strong> Child: </strong> <a href="#title-element">title</a>,<a href="#style-element"> style</a> </span><br><br><br>
+         
+         <code id="header"> &lt;header> &lt;/header></code><span><textarea>it usually contain (h1-h6) also logo or info of the owner.
+You can have more than one header except in &lt;address> and &lt;footer> and it usually have &lt;nav> </textarea><strong> Child:</strong> <a href="#nav">راجع nav</a> </span><br><br><br>
+         
+         <code id="hgroup"> &lt;hgroup> &lt;/hgroup></code><strong> </strong> <span> </span><br><br><br>
+         
+         <code id="hr"> &lt;hr></code><span><textarea>Horizontal Line</textarea><strong> </strong>  </span><br><br><br>
+         
+         <code id="html-element"> &lt;html> &lt;/html></code><span><strong>Child: </strong>  <a href="#head"> Head</a>, </span><br><br><br>
+         
       </fieldset>
     </section>
     
     <section>
       <fieldset>
+        
         <legend id="i"><h2>I</h2></legend>
-         <code>  </code>
-      </fieldset>
-    </section>
-    
-    <section>
-      <fieldset>
-        <legend id="j"><h2>J</h2></legend>
-         <code>  </code>
+        
+         <code id="ii"> &lt;i> &lt;/i></code><strong> </strong> <span> </span><br><br><br>
+         
+         <code id="iframe"> &lt;iframe> &lt;/iframe></code><strong> </strong> <span> </span><br><br><br>
+         
+         <code id="img"> &lt;img> &lt;/img></code><strong> </strong> <span> </span><br><br><br>
+         
+         <code id="input"> &lt;input> &lt;/input></code><strong> </strong> <span> </span><br><br><br>
+         
+         <code id="ins"> &lt;ins> &lt;/ins></code><strong> </strong> <span> </span><br><br><br>
+         
       </fieldset>
     </section>
 
     <section>
       <fieldset>
+        
+        <legend id="k"><h2>K</h2></legend>
+        
+        <code id="kbd"> &lt;kbd> &lt;/kbd> </code><strong> </strong><span> </span><br><br><br>
+        
+      </fieldset>
+    </section>
+    
+    <section>
+      <fieldset>
+        
+        <legend id="l"><h2>L</h2></legend>
+        
+        <code id="label">&lt;label> &lt;/label> </code><strong> attributes: </strong><span> </span><br><br><br>
+        
+        <code id="legend"> &lt;legend> &lt;/legend></code><strong> </strong><span> </span><br><br><br>
+        
+        <code id="li"> &lt;li> &lt;/li> </code><strong> </strong><span> </span><br><br><br>
+        
+        <code id="link"> &lt;link> &lt;/link> </code><strong> </strong><span> </span><br><br><br>
+        
+      </fieldset>
+    </section>
+    
+    <section>
+      <fieldset>
+        
+        <legend id="m"><h2>M</h2></legend>
+        
+           <code id="main"> &lt;main> &lt;/main> </code><strong> </strong><span> </span><br><br><br>
+           
+           <code id="map"> &lt;map> &lt;/map> </code><strong> </strong><span> </span><br><br><br>
+           
+           <code id="mark"> &lt;mark> &lt;/mark> </code><strong> </strong><span> </span><br><br><br>
+           
+           <code id="menu"> &lt;menu> &lt;/menu> </code><strong> </strong><span> </span><br><br><br>
+           
+           <code id="meta"> &lt;meta> &lt;/meta> </code><strong> </strong><span> </span><br><br><br>
+           
+           <code id="meter"> &lt;meter> &lt;/meter> </code><strong> </strong><span> </span><br><br><br>
+        
+        
+      </fieldset>
+    </section>
+    
+    <section>
+      <fieldset>
+        
+        <legend id="n"><h2>N</h2></legend>
+        
+         <code id="nav"> &lt;nav> &lt;/nav> </code><span><textarea> contains links to diffrent parts of the page</textarea><br><br><strong> Parent: </strong> <a href="#header">&lt;header></a> </span><br><br><br>
+         
+         <code id="noscript"> &lt;noscript> &lt;/noscript> </code><strong> </strong><span> </span><br><br><br>
+        
+      </fieldset>
+    </section>
+    
+    <section>
+      <fieldset>
+        
+        <legend id="o"><h2>O</h2></legend>
+        
+        <code id="object"> &lt;object> &lt;/object> </code><strong> </strong><span> </span><br><br><br>
+        
+        <code id="ol"> &lt;ol> &lt;/ol> </code><strong> </strong><span> </span><br><br><br>
+        
+        <code id="optgroup"> &lt;optgroup> &lt;/optgroup> </code><strong> </strong><span> </span><br><br><br>
+        
+        <code id="option"> &lt;option> &lt;/option> </code><strong> </strong><span> </span><br><br><br>
+        
+        <code id="output"> &lt;output> &lt;/output> </code><strong> </strong><span> </span><br><br><br>
+        
+      </fieldset>
+    </section>
+    
+    <section>
+      <fieldset>
+        
+        <legend id="p"><h2>P</h2></legend>
+        
+      
+        <code id="pp"> &lt;p> Paragraph &lt;/p> </code><strong> </strong><span> </span><br><br><br>
+        
+        <code id="param"> &lt;param> &lt;/param> </code><strong> </strong><span> </span><br><br><br>
+        
+        <code id="picture"> &lt;picture> &lt;/picture> </code><strong> </strong><span> </span><br><br><br>
+        
+        <code id="pre"> &lt;pre> &lt;/pre> </code><strong> </strong><span> </span><br><br><br>
+        
+        <code id="progress"> &lt;progress> &lt;/progress> </code><strong> </strong><span> </span><br><br><br>
+        
+      </fieldset>
+    </section>
+    
+    <section>
+      <fieldset>
+        
+        <legend id="q"><h2>Q</h2></legend>
+        
+       
+        <code id="qq"> &lt;q> &lt;/q> </code><strong> </strong><span> </span><br><br><br>
+        
+      </fieldset>
+    </section>
+    
+    <section>
+      <fieldset>
+        
+        <legend id="r"><h2>R</h2></legend>
+        
+        
+        <code id="rp"> &lt;rp> &lt;/rp> </code><strong> </strong><span> </span><br><br><br>
+        
+        <code id="rt"> &lt;rt> &lt;/rt> </code><strong> </strong><span> </span><br><br><br>
+        
+        <code id="ruby"> &lt;ruby> &lt;/ruby> </code><strong> </strong><span> </span><br><br><br>
+        
+      </fieldset>
+    </section>
+    
+    <section>
+      <fieldset>
+        
+        <legend id="s"><h2>S</h2></legend>
+        
+        
+        <code id="ss"> &lt;s> &lt;/s> </code><strong> </strong><span> </span><br><br><br>
+        
+        <code id="samp"> &lt;samp> &lt;/samp> </code><strong> </strong><span> </span><br><br><br>
+        
+        <code id="script"> &lt;script> &lt;/script> </code><strong> </strong><span> </span><br><br><br>
+        
+        <code id="search"> &lt;search> &lt;/search> </code><strong> </strong><span> </span><br><br><br>
+        
+        <code id="section"> &lt;section> &lt;/section> </code><span><strong> Description:</strong><textarea>used to collect similar or related content together </textarea><br> <strong> Parent:</strong><a href="#article"> article (most common)</a> <br> <strong> Child:</strong><a href="#article"> article</a> </span><br><br><br>
+        
+        <code id="select"> &lt;select> &lt;/select> </code><strong> </strong><span> </span><br><br><br>
+        
+        <code id="small"> &lt;small> &lt;/small> </code><strong> </strong><span> </span><br><br><br>
+        
+        <code id="source"> &lt;source> &lt;/source> </code><strong> </strong><span> </span><br><br><br>
+        
+        <code id="span"> &lt;span> &lt;/span> </code><strong> </strong><span> </span><br><br><br>
+        
+        <code id="strong"> &lt;strong> &lt;/strong> </code><strong> </strong><span> </span><br><br><br>
+        
+        <code id="style-element"> &lt;style> &lt;/style> </code><span><strong> Parent:</strong> <a href="#head">head</a></span><br><br><br>
+        
+        <code id="sub"> &lt;sub> &lt;/sub> </code><strong> </strong><span> </span><br><br><br>
+        
+        <code id="summary"> &lt;summary> &lt;/summary> </code><strong> </strong><span> </span><br><br><br>
+        
+        <code id="sup"> &lt;sup> &lt;/sup> </code><strong> </strong><span> </span><br><br><br>
+        
+        <code id="svg"> &lt;svg> &lt;/svg> </code><strong> </strong><span> </span><br><br><br>
+        
+      </fieldset>
+    </section>
+    
+    <section>
+      <fieldset>
+        
+        <legend id="t"><h2>T</h2></legend>
+        
+        
+        <code id="table"> &lt;table> &lt;/table> </code><span><strong></strong></span><br><br><br>
+        
+        <code id="tbody"> &lt;tbody> &lt;/tbody> </code><strong> </strong><span> </span><br><br><br>
+        
+        <code id="td"> &lt;td> &lt;/td> </code><strong> </strong><span> </span><br><br><br>
+        
+        <code id="template"> &lt;template> &lt;/template> </code><strong> </strong><span> </span><br><br><br>
+        
+        <code id="textarea"> &lt;textarea> &lt;/textarea> </code><strong> </strong><span> </span><br><br><br>
+        
+        <code id="tfoot"> &lt;tfoot> &lt;/tfoot> </code><strong> </strong><span> </span><br><br><br>
+        
+        <code id="th"> &lt;th> &lt;/th> </code><strong> </strong><span> </span><br><br><br>
+        
+        <code id="thead"> &lt;thead> &lt;/thead> </code><span><strong></strong></span><br><br><br>
+        
+        <code id="time"> &lt;time> &lt;/time> </code><strong> </strong><span> </span><br><br><br>
+        
+        <code id="title-element"> &lt;title> &lt;/title> </code><span><strong> parent: </strong><a href="#head"> head</a> </span><br><br><br>
+        
+        <code id="tr"> &lt;tr> &lt;/tr> </code><strong> </strong><span> </span><br><br><br>
+        
+        <code id="track"> &lt;track> &lt;/track> </code><strong> </strong><span> </span><br><br><br>
+        
+      </fieldset>
+    </section>
+    
+    <section>
+      <fieldset>
+        
+        <legend id="u"><h2>U</h2></legend>
+        
+        
+        <code id="uu"> &lt;u> &lt;/u> </code><strong> </strong><span> </span><br><br><br>
+        
+        <code id="ul"> &lt;ul> &lt;/ul> </code><strong> </strong><span> </span><br><br><br>
+        
+      </fieldset>
+    </section>
+    
+    <section>
+      <fieldset>
+        
+        <legend id="v"><h2>V</h2></legend>
+        
+       
+        <code id="var"> &lt;var> &lt;/var> </code><strong> </strong><span> </span><br><br><br>
+        
+        <code id="video"> &lt;video> &lt;/video> </code><strong> </strong><span> </span><br><br><br>
+        
+      </fieldset>
+    </section>
+    
+    <section>
+      <fieldset>
+        
+        <legend id="w"><h2>W</h2></legend>
+        
+        
+        <code id=""> &lt;wbr> &lt;/wbr> </code><strong> </strong><span> </span><br><br><br>
+        
+      </fieldset>
+    </section>
+
+    <section>
+      <fieldset>
+        
+        <legend id="block-level-element"><h2>Block (Flow) Elements </h2></legend>
+        
+        
+        <a href="#div" class="list-content">&lt;div> &lt;/div> </a>
+        <a href="#pp" class="list-content">&lt;p> &lt;/p> </a>
+        <a href="#h1-to-h6" class="list-content">&lt;h1-6> &lt;/h1-6> </a>
+        
+      </fieldset>
+    </section>
+
+    <section>
+      <fieldset>
+        
+        <legend id="inline-level-element"><h2>Inline (Phrasing) Elements </h2></legend>
+        
+        
+        <a href="#span" class="list-content">&lt;span> &lt;/span> </a>
+        <a href="#aa" class="list-content">راجع &lt;a> &lt;/a> </a>
+        <a href="#strong" class="list-content">&lt;strong> &lt;/strong> </a>
+        
+      </fieldset>
+    </section>
+
+    <section>
+      <fieldset>
+        
         <legend id="attributes"><h2>Attributes</h2></legend>
         
           <code id="alt">alt</code><span><strong>Elements:</strong> <a href="#area">&lt;area></a> <br><strong>Examples:</strong><br><strong>Attribute Values</strong>
           </span><br><br><br>
         
-         <code id="href"> href="Link | ID or CLASS address"</code> <span><strong>
+         <code id="href">راجع href</code> <span><strong>
            Elements: </strong> <a href="#aa">&lt;a></a>	 &lt;area>	 &lt;base>	 &lt;link><br>
-           <strong>Tip:</strong> You can use href="#top" or href="#" to link to the top of the current page!. <br> you can use an image as a link. <br> to link to an email address: href="mailto:someone@example.com"
-           <br> a phone number: <br>
-           href="tel:+4733378901" <br> a JavaScript:<br>href="javascript:alert('Hello World!');"
+           <strong>Example:</strong><textarea>href="link | .class | #id"</textarea><br>
+           <strong>Tip:</strong> <textarea>You can use href="#top" or href="#" to link to the top of the current page!.
+you can use an image as a link.
+to link to an email address: href="mailto:someone@example.com" 
+a phone number: href="tel:+4733378901" 
+a JavaScript: href="javascript:alert('Hello World!');"</textarea>
          </span><br><br><br>
          
          <code id="download">download</code><span><strong>Elements:</strong> <a href="#aa">&lt;a></a>, area <br><strong>Examples:</strong>       to Specify a name for the downloaded file: <br> download="اسم الملف"</span><br><br><br> 
@@ -148,10 +519,23 @@
           <code id="hreflang">hreflang</code><span><strong>Elements:</strong> <a href="#aa">&lt;a></a> <br><strong>Examples:</strong> hreflang="en" </span><br><br><br> 
           
           <code id="media">media</code><span><strong>Elements:</strong>
-          <a href="#aa">&lt;a></a> <br><strong>Examples:</strong> <br> <strong>Values	Description:</strong>
-"and"	(Specifies an AND operator)
-"not"	(Specifies a NOT operator)
-","	(Specifies an OR operator) </span><br><br><br> 
+          <a href="#aa">&lt;a></a> <br><strong>Examples:</strong> <br> <strong>Values	Description:</strong></span>
+          <table> 
+          <thead>
+            <tr> 
+            <th>Value</th><th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td> and</td><td>Specifies an AND operator</td>
+            </tr>
+              <tr>
+              <td>not</td><td>Specifies a NOT operator</td></tr><tr>
+              <td>,</td><td>Specifies an OR operator</td>
+            </tr>
+          </tbody>
+          </table><br><br><br> 
           <code id="ping">ping</code><span><strong>Elements:</strong>
           <a href="#aa">&lt;a></a> <br><strong>Examples:</strong> </span><br><br><br> 
           <code id="rel">rel</code><span><strong>Elements:</strong>
@@ -185,7 +569,7 @@
           </table>
           <br><br><br> 
           
-                    <code id="target">target</code><span><strong>Elements:</strong> <a href="#aa">&lt;a></a> <br><strong>Examples:</strong><br><strong>Attribute Values</strong>
+         <code id="target">target</code><span><strong>Elements:</strong> <a href="#aa">&lt;a></a> <br><strong>Examples:</strong><br><strong>Attribute Values</strong>
           </span><br><br><br>
           <table> 
           <thead>
@@ -205,9 +589,6 @@
           <code id="type">type</code><span><strong>Elements:</strong> <a href="#aa">&lt;a></a> <br><strong>Examples:</strong><br><strong>Attribute Values</strong>
           </span><br><br><br>
           
-          <code id="title">title</code><span><strong>Elements:</strong> <a href="#abbr">&lt;abbr></a> <br><strong>Examples:</strong><br><strong>Attribute Values</strong>
-          </span><br><br><br>
-          
           <code id="coords">coords</code><span><strong>Elements:</strong> <a href="#area">&lt;area></a> <br><strong>Examples:</strong><br><strong>Attribute Values</strong>
           </span><br><br><br>
           
@@ -216,7 +597,55 @@
           
          </fieldset>
     </section>
+    
+        <section>
+      <fieldset>
+        
+        <legend id="global-attributes"><h2>Global Attributes</h2></legend>
+        
+          <code id="accesskey">accesskey</code><span><strong>Examples:</strong><br><strong>Attribute Values</strong> </span><br><br><br>
+          
+          <code id="class">class</code><span><textarea>to link the elements with اكمل and no problem if they are duplicate it in the same document</textarea> <br><strong>Examples:</strong><br><strong>Attribute Values</strong> </span><br><br><br>
+          
+          <code id="contenteditable">contenteditable</code><span> <strong>Examples:</strong><br><strong>Attribute Values</strong> </span><br><br><br>
+          
+          <code id="data-*">data-*</code><span> <strong>Examples:</strong><br><strong>Attribute Values</strong> </span><br><br><br>
+          
+          <code id="dir">dir</code><span><strong>Examples:</strong><br><strong>Attribute Values</strong> </span><br><br><br>
+          
+          <code id="draggable">draggable</code><span><strong>Examples:</strong><br><strong>Attribute Values</strong> </span><br><br><br>
+          
+          <code id="enterkeyhint">enterkeyhint</code><span><strong>Examples:</strong><br><strong>Attribute Values</strong> </span><br><br><br>
+          
+          <code id="hidden">hidden</code><span> <strong>Examples:</strong><br><strong>Attribute Values</strong> </span><br><br><br>
+          
+          <code id="id">id</code><span><textarea>to link the elements with CSS, JavaScript and should not be duplicate it in the same document</textarea>  <br><strong>Examples:</strong><br><strong>Attribute Values</strong> </span><br><br><br>
+          
+          <code id="inert">inert</code><span>  <strong>Examples:</strong><br><strong>Attribute Values</strong> </span><br><br><br>
+          
+          <code id="inputmode">inputmode</code><span>  <strong>Examples:</strong><br><strong>Attribute Values</strong> </span><br><br><br>
+          
+          <code id="lang">lang</code><span><strong>Examples:</strong> <textarea>first two letters of the language for ex: English > en </textarea><br><strong>Attribute Values</strong> </span><br><br><br>
+          
+          <code id="popover">popover</code><span><strong>Examples:</strong><br><strong>Attribute Values</strong> </span><br><br><br>
+          
+          <code id="spellcheck">spellcheck</code><span> <strong>Examples:</strong><br><strong>Attribute Values</strong> </span><br><br><br>
+          
+          <code id="style-attribute">style</code><span> <strong>Examples:</strong><textarea>style="property: value;"</textarea><br><strong>Attribute Values</strong> </span><br><br><br>
+          
+          <code id="tabindex">tabindex</code><span>  <strong>Examples:</strong><br><strong>Attribute Values</strong> </span><br><br><br>
+          
+             <code id="title-attribute">title</code><span> <strong>Examples:</strong><br><strong>Attribute Values</strong> </span><br><br><br>
+          
+          <code id="translate">translate</code><span> <textarea>is it allowed to translate this element or not</textarea><strong>Examples:</strong><textarea>translate=" yes | no "</textarea> </span><br><br><br>
+          
+      </fieldset>
+    </section>
   </article>
 </main>
+<footer>
+  All Rights reserved to Bashir Ahbesh &reg;&copy;
+  <a href="#top" id="a"></a>
+</footer>
 </body>
 </html>
