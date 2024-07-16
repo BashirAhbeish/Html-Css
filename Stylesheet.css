@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url(Background.jpg);
+  background-attachment: fixed;
+  font-size: 100%;
+  padding: 0px;
+}
+a{
+  text-decoration: none;
+}
+a:visited {
+  color: blue;
+}
+h1 {
+  font-size: 100%;
+  margin: -8px -8px 8px -8px;
+}
+a#h1 {
+  display: block;
+  padding: 1% 5% 5% 0%;
+  color: green;
+  text-align: left;
+  background-color: rgba(255,222,173, 1);
+}
+h1:hover {
+  color: red;
+}
+
+
+
+details {
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  border-radius: 25%;
+  background-color: rgba(190, 120, 20, 0.6);
+  margin-top: 100px;
+}
+summary {
+  padding: 10px;
+  text-align: center;
+}
+.list-content {
+  list-style: none;
+  padding: 10px;
+  margin: 0px 15px 15px 0px;
+  display: inline-block;
+  background-color: rgba(100, 100,100, 0.5);
+  border-radius: 40%;
+}
+
+
+main {
+  margin-top: 50px;
+  position: relative;
+}
+
+
+
+fieldset {
+  border-top-style: none;
+  background-color: rgba(125,125,125, 0.6);
+  border-bottom-style: none;
+  border-right-style: none;
+  border-color: rgba(0, 20,200, 0.7);
+  border-width: 3px;
+  margin-top: 50px;
+}
+legend {
+  vertical-align: 100px;
+  position: relative;
+  bottom:  10px;
+}
+code {
+  font-size: 125%;
+  display: block;
+  clear: right;
+  border-top-style: solid;
+  border-top-width: 2px;
+  margin-top: 30px;
+  font-weight: 900;
+}
+strong {
+font-size: 110%;
+font-weight: 800;
+} 
+span {
+ float: right;
+  width: 95%;
+  font-size: 12px;
+  font-weight: 600;
+} 
+span.d {
+  border-style: solid;
+  border-width: 3px;
+  line-height: 25px;
+  background-color: rgba(210, 180, 140, 0.9);
+  border-color: rgba(125,125,125, 1);
+  margin-bottom: 10px;
+  padding: 1%;
+}
+
+
+
+table, th, tr, td {
+  border-style: solid;
+  background-color: rgba(210, 180, 140, 0.2);
+}
+th {
+  background-color: rgba(210, 180, 140, 0.9);
+}
+
+footer {
+  margin-top: 50px;
+  position: relative;
+  font-weight: bold;
+  text-align: center;
+}
+
+a#bottoma {
+  background-color: rgba(255, 0, 0, 0.6);
+  position: fixed;
+  bottom: 2%;
+  right: 3%;
+  width: 40px;
+  height: 50px;
+  border-radius: 100% 100% 0% 0%;
+}
+
+
+
+@media (min-width: 400px) and (min-height: 750px) {
+body {
+  font-size: ;
+}
+  a#bottoma {
+      width: 80px;
+      height: 100px;
+}
+}

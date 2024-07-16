@@ -15,8 +15,8 @@
 <details>
   <summary> Content List </summary>
   <nav><ul>
-    <li class="list-content"><a href="#html"> HTML </a></li><br>
-    <li class="list-content"><a href="#!" external> ! </a></li>
+    <li class="list-content"><a href="#html"> HTML </a></li>
+    <li class="list-content"><a href="#!"> ! </a></li>
     <li class="list-content"><a href="#a"> A </a></li>
     <li class="list-content"><a href="#b"> B </a></li>
     <li class="list-content"><a href="#c"> C </a></li>
@@ -53,20 +53,10 @@
         
         <legend id="!"><h2>!</h2></legend>
         
-           <code> &lt;!--تعليق--> </code>      <span><strong>attributes:</strong> None. <br><strong>Notes:</strong> You can use the comment tag to "hide" scripts from browsers without support for scripts (so they don't show them as plain text): <pre>
-       &lt;!--
-       function displayMsg() {
-       alert("Hello World!")
-        }
-       //-->
-       The two forward slashes at the 
-       end of comment line (//) is
-       the JavaScript comment symbol.
-       This prevents JavaScript from 
-        executing the --> tag.
-            </pre></span><br><br><br>
+    <code> &lt;!--تعليق--> </code>
+    <span><br><strong>attributes:</strong><span class="d">None. </span><br><strong>Notes:</strong><span class="d"> You can use the comment tag to "hide" scripts from browsers without support for scripts (so they don't show them as plain text):<br><br> &lt;script type="text/javascript"><br>&lt;!--<br> function displayMsg() {<br> alert("Hello World!")<br> }<br> //--><br> &lt;/script><br><br>The two forward slashes at the end of comment line (//) is the JavaScript comment symbol. This prevents JavaScript from executing the --> tag. </span></span><br><br><br>
             
-           <code> &lt;!DOCTYPE></code><span><strong>Example: </strong><textarea contenteditable="">&lt;!doctype html> to announce the language of the document is in HTML5</textarea><br><strong>attributes:</strong></span><br><br><br>
+    <code> &lt;!DOCTYPE></code><span><br><strong>Description: </strong><span class="d">&lt;!doctype html> to declare the language of the document is in HTML5</span><br><strong>attributes:</strong></span><br><br><br>
            
        </fieldset>
      </section>
@@ -76,23 +66,19 @@
         
         <legend id="a"><h2>A</h2></legend>
         
-           <code id="aa"> &lt;a> &lt;/a> </code>      <span><strong>attributes:</strong><a href="#download"> download</a>, <a href="#href">href</a>, <a href="#hreflang">hreflang</a>, <a href="#media">media</a>, <a href="#ping">Ping</a>,<a href="#rel"> rel</a>,<a href="#target"> target</a>,<a href="#type"> type</a><br><br><strong>Notes:</strong></span><br><br><br>
+           <code id="aa"> &lt;a> &lt;/a> </code><span><br><strong>attributes:</strong><span class="d"><a href="#download"> download</a>, <a href="#href">href</a>, <a href="#hreflang">hreflang</a>, <a href="#media">media</a>, <a href="#ping">Ping</a>,<a href="#rel"> rel</a>,<a href="#target"> target</a>,<a href="#type"> type</a></span><br><strong>Notes:</strong></span><br><br><br>
            
-           <code id="abbr"> &lt;abbr> &lt;/abbr></code><span><strong>attributes:</strong> <a href="#title-attribute">title</a></span><br><br><br>
+           <code id="abbr"> &lt;abbr> &lt;/abbr></code><span><br><strong>Description</strong><span class="d">defines an abbreviation or an acronym, like "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM".</span><br><strong>attributes:</strong><span class="d"> <a href="#title-attribute">title</a></span></span><br><br><br>
            
-           <code id="address>"> &lt;address> &lt;/address></code><span><strong>attributes:</strong></span><br><br><br>
+           <code id="address>"> &lt;address> &lt;/address></code><span><br><strong>Description</strong><span class="d"> defines the contact information (email address, URL, physical address, phone number, social media handle, etc.) for the author/owner of a document or an article.<br>The text wll usually renders in italic, and browsers will always add a line break before and after this element.</span><br><strong>attributes:</strong></span><br><br><br>
            
-           <code id="area"> &lt;area> &lt;/area></code><span><strong>attributes:</strong> <a href="#alt">alt</a>,<a href="#coords"> coords</a>, <a href="#download"> download</a>, <a href="#href"> href</a>,<a href="#hreflang"> hreflang</a>, <a href="#media"> media</a>, <a href="#rel">rel</a>, <a href="#shape"> shape</a>,<a href="#target"> targrt</a>, <a href="#type">type</a></span><br><br><br>
+           <code id="area"> &lt;area> &lt;/area></code><span><br><strong>Description:</strong><span class="d">defines an area inside an image map (an image map is an image with clickable areas).</span><br><strong>attributes:</strong> <span class="d"><a href="#alt">alt</a>,<a href="#coords"> coords</a>, <a href="#download"> download</a>, <a href="#href"> href</a>,<a href="#hreflang"> hreflang</a>, <a href="#media"> media</a>, <a href="#rel">rel</a>, <a href="#shape"> shape</a>,<a href="#target"> targrt</a>, <a href="#type">type</a></span><br><strong>Parent: </strong><span class="d"><a href="#map"> map (mandatory)</a></span></span><br><br><br>
            
-           <code id="article"> &lt;article> &lt;/article> </code><span><strong>Description;</strong><textarea>used for independent content that is reuseable outside context of the document</textarea><br><strong>attributes:</strong><br><strong>Parent: </strong><a href="#section"> Section</a><br><strong>Child: </strong><a href="#section"> Section (most common)</a>  </span><br><br><br>
+           <code id="article"> &lt;article> &lt;/article> </code><span><br><strong>Description;</strong><span class="d"> used for independent self-contained that is reuseable outside context of the document. <br><br> An article should make sense on its own and it should be possible to distribute it independently from the rest of the site. <br>Potential sources for the &lt;article> element: <br>• Forum post <br> • Blog post <br>• News story </span><br><strong>attributes:</strong><br><strong>Parent: </strong><span class="d"><a href="#section"> Section</a></span><br><strong>Child: </strong><span class="d"><a href="#section"> Section (most common)</a> </span> </span><br><br><br>
            
+           <code id="aside"> &lt;aside> &lt;/aside> </code><span><br><strong>Description:</strong><span class="d">defines some content aside from the content it is placed in. <br> The aside content should be indirectly related to the surrounding content.</span><br><strong>Tip:</strong><span class="d">&lt;aside> content is often placed as a sidebar in a document.</span><br><strong>attributes:</strong>  </span><br><br><br>
            
-           
-           
-           
-           <code id="aside"> &lt;aside> &lt;/aside> </code><span><strong>attributes:</strong>  </span><br><br><br>
-           
-           <code id="audio"> &lt;audio> &lt;/audio> </code><span><strong>attributes:</strong>  </span><br><br><br>
+           <code id="audio"> &lt;audio> &lt;/audio> </code><span><br><strong>Description:</strong><span class="d">used to embed sound content in a document, such as music or other audio streams.<br> &lt;audio> contains one or more &lt;source> tags with different audio sources. The browser will choose the first source it supports.<br> The text between the &lt;audio> and &lt;/audio> tags will only be displayed in browsers that do not support the &lt;audio> element.</span><br><strong>Audio Formats:</strong><span class="d">MP3, WAV, and OGG.</span><br><strong>attributes:</strong><span class="d"><a href="#autoplay">autoplay</a>, <a href="#controls">controls</a>, <a href="#loop">loop</a>, <a href="#muted">muted</a>, <a href="#preload">preload</a>, <a href="#src">src</a></span></span><br><br><br>
            
       </fieldset>
     </section>
@@ -102,21 +88,21 @@
         
         <legend id="b"><h2>B</h2></legend>
          
-         <code id="bb"> &lt;b> &lt;/b> </code><span><strong>attributes:</strong>  </span><br><br><br>
+         <code id="bb"> &lt;b> &lt;/b> </code><span><br><strong> Description:</strong><span class="d">Make some text bold (without marking it as important): </span><br><strong>Note:</strong><span class="d">According to the HTML5 specification, the &lt;b> tag should be used as a LAST resort when no other tag is more appropriate. The specification states that headings should be denoted with the &lt;h1> to &lt;h6> tags, emphasized text should be denoted with the &lt;em> tag, important text should be denoted with the &lt;strong> tag, and marked/highlighted text should be denoted with the &lt;mark> tag.</span>  </span><br><br><br>
          
-         <code id="base"> &lt;base> &lt;/base> </code><span><strong>attributes:</strong>  </span><br><br><br>
+         <code id="base"> &lt;base> &lt;/base> </code><span><br><strong>Description:</strong><span class="d">The &lt;base> tag specifies the base URL and/or target for all relative URLs in a document. <br> The &lt;base> tag must have either an href or a target attribute present, or both.<br>There can only be one single &lt;base> element in a document.</span><br><strong>Attributes:</strong><span class="d"><a href="#href">href</a>, <a href="#target">target</a></span><br><strong>Parent:</strong><span class="d"><a href="#head">&lt;head></a></span></span><br><br><br>
          
-         <code id="bdi"> &lt;bdi> &lt;/bdi> </code><span><strong>attributes:</strong>  </span><br><br><br>
+         <code id="bdi"> &lt;bdi> &lt;/bdi> </code><span><br><strong>Description:</strong><span class="d">BDI stands for Bi-Directional Isolation. <br>The &lt;bdi> tag isolates a part of text that might be formatted in a different direction from other text outside it.<br>This element is useful when embedding user-generated content with an unknown text direction.</span><br><strong>Examples:</strong><span class="d">     &lt;bdi>jdoe&lt;/bdi><br> &lt;bdi> ريان &lt;/bdi> </span></span><br><br><br>
          
-         <code id="bdo"> &lt;bdo> &lt;/bdo> </code><span><strong>attributes:</strong>  </span><br><br><br>
+         <code id="bdo"> &lt;bdo> &lt;/bdo></code><span><br><strong>Description:</strong><span class="d">stands for Bi-Directional Override.<br> The &lt;bdo> tag is used to override the current text direction.</span><br><strong>attributes:</strong>  <span class="d"><a href="#dir">dir</a></span></span><br><br><br>
          
-         <code id="blockquote"> &lt;blockquote> &lt;/blockquote> </code><span><strong>attributes:</strong>  </span><br><br><br>
+         <code id="blockquote"> &lt;blockquote> &lt;/blockquote> </code><span><br><strong>Description:</strong><span class="d">specifies section that is quoted from another source.<br><br> Browsers usually indent &lt;blockquote> elements </span><br><strong>attributes: </strong><span class="d"><a href="#cite-attribute"> cite</a></span><br><strong>Tip:</strong><span class="d">Use <a href="#qq">&lt;q></a> for inline (short) quotations.</span></span><br><br><br>
          
-         <code id="body"> &lt;body> &lt;/body> </code><span><strong>attributes:</strong>  </span><br><br><br>
+         <code id="body"> &lt;body> &lt;/body> </code><span><br><strong>Description:</strong><span class="d">The known does not need to be defined</span><br></span><br><br><br>
          
-         <code id="br"> &lt;br> </code><span><textarea>Break line (new line starter)</textarea><strong>attributes:</strong>  </span><br><br><br>
+         <code id="br"> &lt;/br> </code><span><br><strong>Description:</strong><span class="d">Break line (new line starter)<br> The tag is useful for writing addresses or poems.</span><br><strong>attributes:</strong>  </span><br><br><br>
          
-         <code id="button"> &lt;button> &lt;/button> </code><span><strong>attributes:</strong>  </span><br><br><br>
+         <code id="button"> &lt;button> &lt;/button> </code><span><br><strong>Description:</strong><span class="d">Inside a &lt;button> element you can put text (and tags like <a href="#ii">&lt;i></a>, <a href="#bb">&lt;b></a>, <a href="#strong">&lt;strong></a>, <a href="#br">&lt;br></a>, <a href="#img">&lt;img></a>, etc.). That is not possible with a button created with the <a href="#input">&lt;input></a> element!</span><br><strong>attributes:</strong><span class="d">  <a href="#type">type (mandatory)</a> , <a href="#autofocus">autofocus</a> , <a href="#disabled">disabled</a>  , <a href="#form-attribute">form</a> , <a href="#formaction">formaction</a> , <a href="#formenctype">formenctype</a> , <a href="#formmethod">formmethod</a>  , <a href="#formnovalidate">formnovalidate</a> , <a href="#formtarget">formtarget</a> , <a href="#popovertarget">popovertarget</a> , <a href="#popovertargetaction">popovertargetaction</a> , <a href="#name">name</a> , <a href="#value">value</a> </span></span><br><br><br>
          
       </fieldset>
     </section>
@@ -126,17 +112,17 @@
         
         <legend id="c"><h2>C</h2></legend>
         
-         <code id="canvas"> &lt;canvas> &lt;/canvas></code><strong> </strong> <span> </span><br><br><br>
+         <code id="canvas"> &lt;canvas> &lt;/canvas></code><span><br><strong>Description:</strong><span class="d">The tag is used to draw graphics, on the fly, via scripting (usually JavaScript).<br> The tag is transparent, and is only a container for graphics, you must use a script to actually draw the graphics.<br> Any text inside the &lt;canvas> element will be displayed in browsers with JavaScript disabled and in browsers that do not support &lt;canvas>. <a href="https://www.w3schools.com/graphics/canvas_intro.asp" target="_blank">HTML Canvas Tutorial</a><br><a href="https://www.w3schools.com/tags/ref_canvas.asp" target="_blank">HTML Canvas Reference</a></span><br><strong>attributes:</strong><span class="d"> <a href="#height">height</a>, <a href="#width">width</a></span>  </span><br><br><br>
          
-         <code id="caption"> &lt;caption> &lt;/caption></code><strong> </strong> <span> </span><br><br><br>
+         <code id="caption"> &lt;caption> &lt;/caption></code><span><br><strong>Description:</strong><span class="d">defines a table caption</span><br><strong>parent:</strong><span class="d"><a href="#table">table </a>(Immediately after &lt;table>)</span>  </span><br><br><br>
          
-         <code id="cite"> &lt;cite> &lt;/cite></code><strong> </strong> <span> </span><br><br><br>
+         <code id="cite-element"> &lt;cite> &lt;/cite></code><span><br><strong>Description:</strong><span class="d">defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc, A person's name is not the title of a work.)<br>The text in the this element usually renders in italic.</span><br><strong> </strong>  </span><br><br><br>
          
-         <code id="code"> &lt;code> &lt;/code></code><strong> </strong> <span> </span><br><br><br>
+         <code id="code"> &lt;code> &lt;/code></code><span><br><strong>Description:</strong><span class="d">used to define a piece of computer code. The content inside is displayed in the browser's default monospace font.</span><br><strong> Similar elements:</strong><span class="d"><a href="#samp">&lt;samp></a>, <a href="#kbd">&lt;kbd></a>, <a href="#var">&lt;var></a>, <a href="#pre">&lt;pre></a></span></span><br><br><br>
          
-         <code id="col"> &lt;col> &lt;/col></code><strong> </strong> <span> </span><br><br><br>
+         <code id="col"> &lt;col> &lt;/col></code><span><br><strong>Description:</strong><span class="d">specifies column properties for each column within a <a href="#colgroup">&lt;colgroup></a> element.<br>The tag is useful for applying styles to entire columns, instead of repeating the styles for each cell, for each row.</span><br><strong>attributes:</strong><span class="d"><a href="#span-attribute">span</a></span><br><strong>parent:</strong><span class="d"><a href="#colgroup">&lt;colgroup></a></span> </span><br><br><br>
          
-         <code id="colgroup"> &lt;colgroup> &lt;/colgroup></code><strong> </strong> <span> </span><br><br><br>
+         <code id="colgroup"> &lt;colgroup> &lt;/colgroup></code><span><br><strong>Description:</strong><span class="d">The tag specifies a group of one or more columns in a table for formatting.<br>the tag is useful for applying styles to entire columns, instead of repeating the styles for each cell, for each row.<br>To define different properties to a column within a &lt;colgroup>, use the &lt;col> tag within the &lt;colgroup> tag.</span> <br><strong>attributes:</strong><span class="d"><a href="#span-attribute">span</a></span><br><strong>parent:</strong><span class="d"><a href="#table">&lt;table> (mandatory)</a><br>Note: &lt;colgroup> tag must be a child of a &lt;table> element, after any &lt;caption> elements and before any &lt;thead>, &lt;tbody>, &lt;tfoot>, and &lt;tr> elements.</span></span><br><br><br>
          
       </fieldset>
     </section>
@@ -146,24 +132,27 @@
         
         <legend id="d"><h2>D</h2></legend>
         
-          <code id="data"> &lt;data> &lt;/data></code><strong> </strong> <span> </span><br><br><br>
+          <code id="data"> &lt;data> &lt;/data></code><span><br><strong>Description:</strong><span class="d">The tag is used to add a machine-readable translation of a given content. <br>This element provides both a machine-readable value for data processors, and a human-readable value for rendering in a browser.<br><br>Tip: If the content is time- or date-related, use the <a href="#time">&lt;time></a> element instead.</span><br><strong>attributes:</strong><span class="d"><a href="#value">value</a></span>  </span><br><br><br>
         
-          <code id="datalist"> &lt;datalist> &lt;/datalist></code><strong> </strong> <span> </span><br><br><br>
-          <code id="dd"> &lt;dd> &lt;/dd></code><strong> </strong> <span> </span><br><br><br>
+          <code id="datalist"> &lt;datalist> &lt;/datalist></code><span><br><strong>Description:</strong><span class="d">The &lt;datalist> tag specifies a list of pre-defined options for an &lt;input> element. <br>The &lt;datalist> tag is used to provide an "autocomplete" feature for &lt;input> elements. Users will see a drop-down list of pre-defined options as they input data.<br>The &lt;datalist> element's id attribute must be equal to the &lt;input> element's list attribute (this binds them together).</span>
+          <br><strong>Parent:</strong> <span class="d"><a href="#input">&lt;input></a></span>
+          <br><strong>Child:</strong> <span class="d"><a href="#option">&lt;option></a></span></span><br><br><br>
           
-          <code id="del"> &lt;del> &lt;/del></code><strong> </strong> <span> </span><br><br><br>
+          <code id="dd"> &lt;dd> &lt;/dd></code><span><br><strong>Description:</strong><span class="d">used to describe a term/name in a description list.<br> Inside a &lt;dd> tag you can put paragraphs, line breaks, images, links, lists, etc.</span><br><strong>Parent:</strong><span class="d"><a href="#dl">&lt;dl></a></span><br><strong>conjuncted with:</strong><span class="d"><a href="#dt">&lt;dt></a></span><br><strong> </strong>  </span><br><br><br>
           
-          <code id="details"> &lt;details> &lt;/details></code><strong> </strong> <span> </span><br><br><br>
+          <code id="del"> &lt;del> &lt;/del></code><span><br><strong>Description:</strong><span class="d">defines text that has been deleted from a document. Browsers will usually strike a line through deleted text.</span><br><strong> conjuncted with:</strong><span class="d"><a href="#ins">&lt;ins></a></span><br><strong>attributes:</strong><span class="d"><a href="#cite-attribute">cite</a>, <a href="#datetime">datetime</a></span></span><br><br><br>
           
-          <code id="dfn"> &lt;dfn> &lt;/dfn></code><strong> </strong> <span> </span><br><br><br>
+          <code id="details"> &lt;details> &lt;/details></code><span><br><strong>Description:</strong><span class="d">specifies additional details that the user can open and close on demand.<br>The &lt;details> tag is often used to create an interactive widget that the user can open and close. By default, the widget is closed. When open, it expands, and displays the content within.<br>Any sort of content can be put inside the &lt;details> tag. </span><br><strong>Child: </strong> <span class="d"><a href="#summary">summary (mandatory)</a></span><br><strong>attributes</strong><span class="d"><a href="#open">open</a></span></span><br><br><br>
           
-          <code id="dialog"> &lt;dialog> &lt;/dialog></code><strong> </strong> <span> </span><br><br><br>
+          <code id="dfn"> &lt;dfn> &lt;/dfn></code><span><br><strong>Description:</strong><span class="d"></span><br><strong> </strong>  </span><br><br><br>
           
-          <code id="div"> &lt;div> &lt;/div></code><strong> </strong> <span> </span><br><br><br>
+          <code id="dialog"> &lt;dialog> &lt;/dialog></code><span><br><strong>Description:</strong><span class="d"></span><br><strong> </strong>  </span><br><br><br>
           
-          <code id="dl"> &lt;dl> &lt;/dl></code><strong> </strong> <span> </span><br><br><br>
+          <code id="div"> &lt;div> &lt;/div></code><span><br><strong>Description:</strong><span class="d"></span><br><strong> </strong>  </span><br><br><br>
           
-          <code id="dt"> &lt;dt> &lt;/dt></code><strong> </strong> <span> </span><br><br><br>
+          <code id="dl"> &lt;dl> &lt;/dl></code><span><br><strong>Description:</strong><span class="d"></span><strong> </strong>  </span><br><br><br>
+          
+          <code id="dt"> &lt;dt> &lt;/dt></code><span><br><strong>Description:</strong><span class="d"></span><br><strong> </strong>  </span><br><br><br>
           
           
          
@@ -175,9 +164,9 @@
         
         <legend id="e"><h2>E</h2></legend>
         
-         <code id="em"> &lt;em> &lt;/em></code><strong> </strong> <span> </span><br><br><br>
+         <code id="em"> &lt;em> &lt;/em></code><span><br><strong>Description:</strong><span class="d"></span><br><strong> </strong>  </span><br><br><br>
          
-         <code id="embed"> &lt;embed> &lt;/embed></code><strong> </strong> <span> </span><br><br><br>
+         <code id="embed"> &lt;embed> &lt;/embed></code><span><br><strong>Description:</strong><span class="d"></span><br><strong> </strong>  </span><br><br><br>
          
       </fieldset>
     </section>
@@ -187,15 +176,15 @@
         
         <legend id="f"><h2>F</h2></legend>
         
-         <code id="fieldset"> &lt;fieldset> &lt;/fieldset></code><strong> </strong> <span> </span><br><br><br>
+         <code id="fieldset"> &lt;fieldset> &lt;/fieldset></code><span><br><strong>Description:</strong><span class="d"></span><br><strong> </strong>  </span><br><br><br>
          
-         <code id="figcaption"> &lt;figcaption> &lt;/figcaption></code><strong> </strong> <span> </span><br><br><br>
+         <code id="figcaption"> &lt;figcaption> &lt;/figcaption></code><span><br><strong>Description:</strong><span class="d"></span><br><strong> </strong>  </span><br><br><br>
          
-         <code id="figure"> &lt;figure> &lt;/figure></code><strong> </strong> <span> </span><br><br><br>
+         <code id="figure"> &lt;figure> &lt;/figure></code><span><br><strong>Description:</strong><span class="d"></span><br><strong> </strong>  </span><br><br><br>
          
-         <code id="footer"> &lt;footer> &lt;/footer></code><span><textarea>info in the end of the page, copyright, important links, contact info</textarea><strong> </strong>  </span><br><br><br>
+         <code id="footer"> &lt;footer> &lt;/footer></code><span><br><strong>Description: </strong><span class="d">info in the end of the page, copyright, important links, contact info</span><br><strong> </strong>  </span><br><br><br>
          
-         <code id="form"> &lt;form> &lt;/form></code><strong> </strong> <span> </span><br><br><br>
+         <code id="form-element"> &lt;form> &lt;/form></code><span><br><strong>Description:</strong><span class="d"></span><br><strong> </strong>  </span><br><br><br>
          
       </fieldset>
     </section>
@@ -205,18 +194,18 @@
         
         <legend id="h"><h2>H</h2></legend>
         
-         <code id="h1-to-h6"> &lt;h1> to &lt;h6> ..... &lt;/h1> to &lt;/h6></code><strong> </strong> <span> </span><br><br><br>
+         <code id="h1-to-h6"> &lt;h1> to &lt;h6> ..... &lt;/h1> to &lt;/h6></code><span><br><strong>Description:</strong><span class="d"></span><br><strong> </strong>  </span><br><br><br>
          
-         <code id="head"> &lt;head> &lt;/head></code><span><strong>Parent: </strong><a href="#html-element">html</a><br><strong> Child: </strong> <a href="#title-element">title</a>,<a href="#style-element"> style</a> </span><br><br><br>
+         <code id="head"> &lt;head> &lt;/head></code><span><br><strong>Description:</strong><span class="d"></span><br><strong>Parent: </strong><span class="d"><a href="#html-element">html</a></span><br><strong> Child: </strong> <span class="d"><a href="#title-element">title</a>,<a href="#style-element"> style</a>, <a href="#meta">meta</a> , <a href="#link">link</a>, <a href="#script">script</a>, <a href="#base">base</a></span></span><br><br><br>
          
-         <code id="header"> &lt;header> &lt;/header></code><span><textarea>it usually contain (h1-h6) also logo or info of the owner.
-You can have more than one header except in &lt;address> and &lt;footer> and it usually have &lt;nav> </textarea><strong> Child:</strong> <a href="#nav">راجع nav</a> </span><br><br><br>
+         <code id="header"> &lt;header> &lt;/header></code><span><br><strong>Description: </strong><span class="d">it usually contain (h1-h6) also logo or info of the owner.
+You can have more than one header except in &lt;address> and &lt;footer> and it usually have &lt;nav> </span><br><strong> Child:</strong> <a href="#nav">nav (Optional)</a> </span><br><br><br>
          
-         <code id="hgroup"> &lt;hgroup> &lt;/hgroup></code><strong> </strong> <span> </span><br><br><br>
+         <code id="hgroup"> &lt;hgroup> &lt;/hgroup></code><span><br><strong>Description:</strong><span class="d"></span><br><strong> </strong> </span><br><br><br>
          
-         <code id="hr"> &lt;hr></code><span><textarea>Horizontal Line</textarea><strong> </strong>  </span><br><br><br>
+         <code id="hr"> &lt;hr></code><span><br><strong>Description:</strong><span class="d">Horizontal Line</span><br><strong> </strong>  </span><br><br><br>
          
-         <code id="html-element"> &lt;html> &lt;/html></code><span><strong>Child: </strong>  <a href="#head"> Head</a>, </span><br><br><br>
+         <code id="html-element"> &lt;html> &lt;/html></code><span><br><strong>Child: </strong>  <a href="#head"> Head</a>, </span><br><br><br>
          
       </fieldset>
     </section>
@@ -226,15 +215,15 @@ You can have more than one header except in &lt;address> and &lt;footer> and it 
         
         <legend id="i"><h2>I</h2></legend>
         
-         <code id="ii"> &lt;i> &lt;/i></code><strong> </strong> <span> </span><br><br><br>
+         <code id="ii"> &lt;i> &lt;/i></code><br><strong> </strong> <span> </span><br><br><br>
          
-         <code id="iframe"> &lt;iframe> &lt;/iframe></code><strong> </strong> <span> </span><br><br><br>
+         <code id="iframe"> &lt;iframe> &lt;/iframe></code><br><strong> </strong> <span> </span><br><br><br>
          
-         <code id="img"> &lt;img> &lt;/img></code><strong> </strong> <span> </span><br><br><br>
+         <code id="img"> &lt;img> &lt;/img></code><span><br><strong>attributes: </strong><span class="d"><a href="#usemap">usemap</a></span></span><br><br><br>
          
-         <code id="input"> &lt;input> &lt;/input></code><strong> </strong> <span> </span><br><br><br>
+         <code id="input"> &lt;input> &lt;/input></code><br><strong> </strong> <span> </span><br><br><br>
          
-         <code id="ins"> &lt;ins> &lt;/ins></code><strong> </strong> <span> </span><br><br><br>
+         <code id="ins"> &lt;ins> &lt;/ins></code><br><strong> </strong> <span> </span><br><br><br>
          
       </fieldset>
     </section>
@@ -244,7 +233,7 @@ You can have more than one header except in &lt;address> and &lt;footer> and it 
         
         <legend id="k"><h2>K</h2></legend>
         
-        <code id="kbd"> &lt;kbd> &lt;/kbd> </code><strong> </strong><span> </span><br><br><br>
+        <code id="kbd"> &lt;kbd> &lt;/kbd> </code><br><strong> </strong><span> </span><br><br><br>
         
       </fieldset>
     </section>
@@ -254,13 +243,13 @@ You can have more than one header except in &lt;address> and &lt;footer> and it 
         
         <legend id="l"><h2>L</h2></legend>
         
-        <code id="label">&lt;label> &lt;/label> </code><strong> attributes: </strong><span> </span><br><br><br>
+        <code id="label">&lt;label> &lt;/label> </code><br><strong> attributes: </strong><span> </span><br><br><br>
         
-        <code id="legend"> &lt;legend> &lt;/legend></code><strong> </strong><span> </span><br><br><br>
+        <code id="legend"> &lt;legend> &lt;/legend></code><br><strong> </strong><span> </span><br><br><br>
         
-        <code id="li"> &lt;li> &lt;/li> </code><strong> </strong><span> </span><br><br><br>
+        <code id="li"> &lt;li> &lt;/li> </code><br><strong> </strong><span> </span><br><br><br>
         
-        <code id="link"> &lt;link> &lt;/link> </code><strong> </strong><span> </span><br><br><br>
+        <code id="link"> &lt;link> &lt;/link> </code><br><strong> </strong><span> </span><br><br><br>
         
       </fieldset>
     </section>
@@ -270,17 +259,20 @@ You can have more than one header except in &lt;address> and &lt;footer> and it 
         
         <legend id="m"><h2>M</h2></legend>
         
-           <code id="main"> &lt;main> &lt;/main> </code><strong> </strong><span> </span><br><br><br>
+           <code id="main"> &lt;main> &lt;/main> </code><br><strong> </strong><span> </span><br><br><br>
            
-           <code id="map"> &lt;map> &lt;/map> </code><strong> </strong><span> </span><br><br><br>
+           <code id="map"> &lt;map> &lt;/map> </code><span><br><strong>Child: </strong><span class="d"><a href="#area"> area (mandatory)</a></span></span><br><br><br>
            
-           <code id="mark"> &lt;mark> &lt;/mark> </code><strong> </strong><span> </span><br><br><br>
            
-           <code id="menu"> &lt;menu> &lt;/menu> </code><strong> </strong><span> </span><br><br><br>
            
-           <code id="meta"> &lt;meta> &lt;/meta> </code><strong> </strong><span> </span><br><br><br>
            
-           <code id="meter"> &lt;meter> &lt;/meter> </code><strong> </strong><span> </span><br><br><br>
+           <code id="mark"> &lt;mark> &lt;/mark> </code><br><strong> </strong><span> </span><br><br><br>
+           
+           <code id="menu"> &lt;menu> &lt;/menu> </code><br><strong> </strong><span> </span><br><br><br>
+           
+           <code id="meta"> &lt;meta> &lt;/meta> </code><br><strong> </strong><span> </span><br><br><br>
+           
+           <code id="meter"> &lt;meter> &lt;/meter> </code><br><strong> </strong><span> </span><br><br><br>
         
         
       </fieldset>
@@ -291,9 +283,9 @@ You can have more than one header except in &lt;address> and &lt;footer> and it 
         
         <legend id="n"><h2>N</h2></legend>
         
-         <code id="nav"> &lt;nav> &lt;/nav> </code><span><textarea> contains links to diffrent parts of the page</textarea><br><br><strong> Parent: </strong> <a href="#header">&lt;header></a> </span><br><br><br>
+         <code id="nav"> &lt;nav> &lt;/nav> </code><span><span class="d"> contains links to diffrent parts of the page</span><br><br><strong> Parent: </strong> <a href="#header">&lt;header></a> </span><br><br><br>
          
-         <code id="noscript"> &lt;noscript> &lt;/noscript> </code><strong> </strong><span> </span><br><br><br>
+         <code id="noscript"> &lt;noscript> &lt;/noscript> </code><br><strong> </strong><span> </span><br><br><br>
         
       </fieldset>
     </section>
@@ -303,15 +295,15 @@ You can have more than one header except in &lt;address> and &lt;footer> and it 
         
         <legend id="o"><h2>O</h2></legend>
         
-        <code id="object"> &lt;object> &lt;/object> </code><strong> </strong><span> </span><br><br><br>
+        <code id="object"> &lt;object> &lt;/object> </code><span><br><strong>attributes: </strong><span class="d"><a href="#usemap">usemap</a></span></span><br><br><br>
         
-        <code id="ol"> &lt;ol> &lt;/ol> </code><strong> </strong><span> </span><br><br><br>
+        <code id="ol"> &lt;ol> &lt;/ol> </code><br><strong> </strong><span> </span><br><br><br>
         
-        <code id="optgroup"> &lt;optgroup> &lt;/optgroup> </code><strong> </strong><span> </span><br><br><br>
+        <code id="optgroup"> &lt;optgroup> &lt;/optgroup> </code><br><strong> </strong><span> </span><br><br><br>
         
-        <code id="option"> &lt;option> &lt;/option> </code><strong> </strong><span> </span><br><br><br>
+        <code id="option"> &lt;option> &lt;/option> </code><br><strong> </strong><span> </span><br><br><br>
         
-        <code id="output"> &lt;output> &lt;/output> </code><strong> </strong><span> </span><br><br><br>
+        <code id="output"> &lt;output> &lt;/output> </code><br><strong> </strong><span> </span><br><br><br>
         
       </fieldset>
     </section>
@@ -322,15 +314,15 @@ You can have more than one header except in &lt;address> and &lt;footer> and it 
         <legend id="p"><h2>P</h2></legend>
         
       
-        <code id="pp"> &lt;p> Paragraph &lt;/p> </code><strong> </strong><span> </span><br><br><br>
+        <code id="pp"> &lt;p> Paragraph &lt;/p> </code><br><strong> </strong><span> </span><br><br><br>
         
-        <code id="param"> &lt;param> &lt;/param> </code><strong> </strong><span> </span><br><br><br>
+        <code id="param"> &lt;param> &lt;/param> </code><br><strong> </strong><span> </span><br><br><br>
         
-        <code id="picture"> &lt;picture> &lt;/picture> </code><strong> </strong><span> </span><br><br><br>
+        <code id="picture"> &lt;picture> &lt;/picture> </code><br><strong> </strong><span> </span><br><br><br>
         
-        <code id="pre"> &lt;pre> &lt;/pre> </code><strong> </strong><span> </span><br><br><br>
+        <code id="pre"> &lt;pre> &lt;/pre> </code><br><strong> </strong><span> </span><br><br><br>
         
-        <code id="progress"> &lt;progress> &lt;/progress> </code><strong> </strong><span> </span><br><br><br>
+        <code id="progress"> &lt;progress> &lt;/progress> </code><br><strong> </strong><span> </span><br><br><br>
         
       </fieldset>
     </section>
@@ -341,7 +333,7 @@ You can have more than one header except in &lt;address> and &lt;footer> and it 
         <legend id="q"><h2>Q</h2></legend>
         
        
-        <code id="qq"> &lt;q> &lt;/q> </code><strong> </strong><span> </span><br><br><br>
+        <code id="qq"> &lt;q> &lt;/q> </code><br><strong> </strong><span> </span><br><br><br>
         
       </fieldset>
     </section>
@@ -352,11 +344,11 @@ You can have more than one header except in &lt;address> and &lt;footer> and it 
         <legend id="r"><h2>R</h2></legend>
         
         
-        <code id="rp"> &lt;rp> &lt;/rp> </code><strong> </strong><span> </span><br><br><br>
+        <code id="rp"> &lt;rp> &lt;/rp> </code><br><strong> </strong><span> </span><br><br><br>
         
-        <code id="rt"> &lt;rt> &lt;/rt> </code><strong> </strong><span> </span><br><br><br>
+        <code id="rt"> &lt;rt> &lt;/rt> </code><br><strong> </strong><span> </span><br><br><br>
         
-        <code id="ruby"> &lt;ruby> &lt;/ruby> </code><strong> </strong><span> </span><br><br><br>
+        <code id="ruby"> &lt;ruby> &lt;/ruby> </code><br><strong> </strong><span> </span><br><br><br>
         
       </fieldset>
     </section>
@@ -367,35 +359,35 @@ You can have more than one header except in &lt;address> and &lt;footer> and it 
         <legend id="s"><h2>S</h2></legend>
         
         
-        <code id="ss"> &lt;s> &lt;/s> </code><strong> </strong><span> </span><br><br><br>
+        <code id="ss"> &lt;s> &lt;/s> </code><br><strong> </strong><span> </span><br><br><br>
         
-        <code id="samp"> &lt;samp> &lt;/samp> </code><strong> </strong><span> </span><br><br><br>
+        <code id="samp"> &lt;samp> &lt;/samp> </code><br><strong> </strong><span> </span><br><br><br>
         
-        <code id="script"> &lt;script> &lt;/script> </code><strong> </strong><span> </span><br><br><br>
+        <code id="script"> &lt;script> &lt;/script> </code><br><strong> </strong><span> </span><br><br><br>
         
-        <code id="search"> &lt;search> &lt;/search> </code><strong> </strong><span> </span><br><br><br>
+        <code id="search"> &lt;search> &lt;/search> </code><br><strong> </strong><span> </span><br><br><br>
         
-        <code id="section"> &lt;section> &lt;/section> </code><span><strong> Description:</strong><textarea>used to collect similar or related content together </textarea><br> <strong> Parent:</strong><a href="#article"> article (most common)</a> <br> <strong> Child:</strong><a href="#article"> article</a> </span><br><br><br>
+        <code id="section"> &lt;section> &lt;/section> </code><span><br><strong> Description:</strong><span class="d">used to collect similar or related content together </span><br> <strong> Parent:</strong><a href="#article"> article (most common)</a> <br> <strong> Child:</strong><a href="#article"> article</a> </span><br><br><br>
         
-        <code id="select"> &lt;select> &lt;/select> </code><strong> </strong><span> </span><br><br><br>
+        <code id="select"> &lt;select> &lt;/select> </code><br><strong> </strong><span> </span><br><br><br>
         
-        <code id="small"> &lt;small> &lt;/small> </code><strong> </strong><span> </span><br><br><br>
+        <code id="small"> &lt;small> &lt;/small> </code><br><strong> </strong><span> </span><br><br><br>
         
-        <code id="source"> &lt;source> &lt;/source> </code><strong> </strong><span> </span><br><br><br>
+        <code id="source"> &lt;source> &lt;/source> </code><br><strong> </strong><span> </span><br><br><br>
         
-        <code id="span"> &lt;span> &lt;/span> </code><strong> </strong><span> </span><br><br><br>
+        <code id="span-element"> &lt;span> &lt;/span> </code><br><strong> </strong><span> </span><br><br><br>
         
-        <code id="strong"> &lt;strong> &lt;/strong> </code><strong> </strong><span> </span><br><br><br>
+        <code id="strong"> &lt;strong> &lt;/strong> </code><br><strong> </strong><span> </span><br><br><br>
         
-        <code id="style-element"> &lt;style> &lt;/style> </code><span><strong> Parent:</strong> <a href="#head">head</a></span><br><br><br>
+        <code id="style-element"> &lt;style> &lt;/style> </code><span><br><strong> Parent:</strong> <a href="#head">head</a></span><br><br><br>
         
-        <code id="sub"> &lt;sub> &lt;/sub> </code><strong> </strong><span> </span><br><br><br>
+        <code id="sub"> &lt;sub> &lt;/sub> </code><br><strong> </strong><span> </span><br><br><br>
         
-        <code id="summary"> &lt;summary> &lt;/summary> </code><strong> </strong><span> </span><br><br><br>
+        <code id="summary"> &lt;summary> &lt;/summary> </code><br><strong> </strong><span> </span><br><br><br>
         
-        <code id="sup"> &lt;sup> &lt;/sup> </code><strong> </strong><span> </span><br><br><br>
+        <code id="sup"> &lt;sup> &lt;/sup> </code><br><strong> </strong><span> </span><br><br><br>
         
-        <code id="svg"> &lt;svg> &lt;/svg> </code><strong> </strong><span> </span><br><br><br>
+        <code id="svg"> &lt;svg> &lt;/svg> </code><br><strong> </strong><span> </span><br><br><br>
         
       </fieldset>
     </section>
@@ -406,29 +398,29 @@ You can have more than one header except in &lt;address> and &lt;footer> and it 
         <legend id="t"><h2>T</h2></legend>
         
         
-        <code id="table"> &lt;table> &lt;/table> </code><span><strong></strong></span><br><br><br>
+        <code id="table"> &lt;table> &lt;/table> </code><span><br><strong></strong></span><br><br><br>
         
-        <code id="tbody"> &lt;tbody> &lt;/tbody> </code><strong> </strong><span> </span><br><br><br>
+        <code id="tbody"> &lt;tbody> &lt;/tbody> </code><br><strong> </strong><span> </span><br><br><br>
         
-        <code id="td"> &lt;td> &lt;/td> </code><strong> </strong><span> </span><br><br><br>
+        <code id="td"> &lt;td> &lt;/td> </code><br><strong> </strong><span> </span><br><br><br>
         
-        <code id="template"> &lt;template> &lt;/template> </code><strong> </strong><span> </span><br><br><br>
+        <code id="template"> &lt;template> &lt;/template> </code><br><strong> </strong><span> </span><br><br><br>
         
-        <code id="textarea"> &lt;textarea> &lt;/textarea> </code><strong> </strong><span> </span><br><br><br>
+        <code id="textarea"> &lt;textarea> &lt;/textarea> </code><br><strong> </strong><span> </span><br><br><br>
         
-        <code id="tfoot"> &lt;tfoot> &lt;/tfoot> </code><strong> </strong><span> </span><br><br><br>
+        <code id="tfoot"> &lt;tfoot> &lt;/tfoot> </code><br><strong> </strong><span> </span><br><br><br>
         
-        <code id="th"> &lt;th> &lt;/th> </code><strong> </strong><span> </span><br><br><br>
+        <code id="th"> &lt;th> &lt;/th> </code><br><strong> </strong><span> </span><br><br><br>
         
-        <code id="thead"> &lt;thead> &lt;/thead> </code><span><strong></strong></span><br><br><br>
+        <code id="thead"> &lt;thead> &lt;/thead> </code><span><br><strong></strong></span><br><br><br>
         
-        <code id="time"> &lt;time> &lt;/time> </code><strong> </strong><span> </span><br><br><br>
+        <code id="time"> &lt;time> &lt;/time> </code><br><strong> </strong><span> </span><br><br><br>
         
-        <code id="title-element"> &lt;title> &lt;/title> </code><span><strong> parent: </strong><a href="#head"> head</a> </span><br><br><br>
+        <code id="title-element"> &lt;title> &lt;/title> </code><span><br><strong> parent: </strong><a href="#head"> head</a> </span><br><br><br>
         
-        <code id="tr"> &lt;tr> &lt;/tr> </code><strong> </strong><span> </span><br><br><br>
+        <code id="tr"> &lt;tr> &lt;/tr> </code><br><strong> </strong><span> </span><br><br><br>
         
-        <code id="track"> &lt;track> &lt;/track> </code><strong> </strong><span> </span><br><br><br>
+        <code id="track"> &lt;track> &lt;/track> </code><br><strong> </strong><span> </span><br><br><br>
         
       </fieldset>
     </section>
@@ -439,9 +431,9 @@ You can have more than one header except in &lt;address> and &lt;footer> and it 
         <legend id="u"><h2>U</h2></legend>
         
         
-        <code id="uu"> &lt;u> &lt;/u> </code><strong> </strong><span> </span><br><br><br>
+        <code id="uu"> &lt;u> &lt;/u> </code><br><strong> </strong><span> </span><br><br><br>
         
-        <code id="ul"> &lt;ul> &lt;/ul> </code><strong> </strong><span> </span><br><br><br>
+        <code id="ul"> &lt;ul> &lt;/ul> </code><br><strong> </strong><span> </span><br><br><br>
         
       </fieldset>
     </section>
@@ -452,9 +444,9 @@ You can have more than one header except in &lt;address> and &lt;footer> and it 
         <legend id="v"><h2>V</h2></legend>
         
        
-        <code id="var"> &lt;var> &lt;/var> </code><strong> </strong><span> </span><br><br><br>
+        <code id="var"> &lt;var> &lt;/var> </code><br><strong> </strong><span> </span><br><br><br>
         
-        <code id="video"> &lt;video> &lt;/video> </code><strong> </strong><span> </span><br><br><br>
+        <code id="video"> &lt;video> &lt;/video> </code><br><strong> </strong><span> </span><br><br><br>
         
       </fieldset>
     </section>
@@ -465,7 +457,7 @@ You can have more than one header except in &lt;address> and &lt;footer> and it 
         <legend id="w"><h2>W</h2></legend>
         
         
-        <code id=""> &lt;wbr> &lt;/wbr> </code><strong> </strong><span> </span><br><br><br>
+        <code id="wbr"> &lt;wbr> &lt;/wbr> </code><br><strong> </strong><span> </span><br><br><br>
         
       </fieldset>
     </section>
@@ -475,10 +467,14 @@ You can have more than one header except in &lt;address> and &lt;footer> and it 
         
         <legend id="block-level-element"><h2>Block (Flow) Elements </h2></legend>
         
+        <span><br><strong>Description:</strong><span class="d">  start on a new line, taking up the full width available.<br>  They always create a new block of content, which means elements following them will appear on the next line.<br> respect all margin and padding settings, meaning they can push other elements away both horizontally and vertically.<br> They can contain other block-level or inline elements, making them useful for creating complex layouts.</span></span><br><br><br>
         
         <a href="#div" class="list-content">&lt;div> &lt;/div> </a>
         <a href="#pp" class="list-content">&lt;p> &lt;/p> </a>
         <a href="#h1-to-h6" class="list-content">&lt;h1-6> &lt;/h1-6> </a>
+        <a href="#ul" class="list-content">&lt;ul> &lt;ul> </a>
+        <a href="#ol" class="list-content">&lt;ol> &lt;ol> </a>
+        <a href="#li" class="list-content">&lt;li> &lt;li> </a>
         
       </fieldset>
     </section>
@@ -488,10 +484,17 @@ You can have more than one header except in &lt;address> and &lt;footer> and it 
         
         <legend id="inline-level-element"><h2>Inline (Phrasing) Elements </h2></legend>
         
+        <span><br><strong>Description:</strong><span class="d">occupy the space as needed within the space defined by the main element.<br> they do not begin on new lines.<br> can have margins and paddings applied, but these won't affect the layout in the same way as block-level elements. Specifically, vertical margins and padding won't push other elements away.<br>They can be styled using CSS, but their inline nature limits certain layout properties.</span></span><br><br><br>
         
         <a href="#span" class="list-content">&lt;span> &lt;/span> </a>
-        <a href="#aa" class="list-content">راجع &lt;a> &lt;/a> </a>
+        <a href="#aa" class="list-content"> &lt;a> &lt;/a> </a>
+        <a href="#em" class="list-content">&lt;em> </a>
         <a href="#strong" class="list-content">&lt;strong> &lt;/strong> </a>
+        <a href="#img" class="list-content">&lt;img> </a>
+        <a href="#code" class="list-content">&lt;code> &lt;/code></a>
+        <a href="#cite-element" class="list-content">&lt;cite> &lt;/cite></a>
+        <a href="#button" class="list-content">&lt;button> &lt;/button></a>
+        <a href="#input" class="list-content">&lt;input> &lt;/input></a>
         
       </fieldset>
     </section>
@@ -501,24 +504,18 @@ You can have more than one header except in &lt;address> and &lt;footer> and it 
         
         <legend id="attributes"><h2>Attributes</h2></legend>
         
-          <code id="alt">alt</code><span><strong>Elements:</strong> <a href="#area">&lt;area></a> <br><strong>Examples:</strong><br><strong>Attribute Values</strong>
+          <code id="alt">alt</code><span><br><strong>Elements:</strong> <a href="#area">&lt;area></a> <br><strong>Examples:</strong><br><strong>Attribute Values</strong>
           </span><br><br><br>
         
-         <code id="href">راجع href</code> <span><strong>
-           Elements: </strong> <a href="#aa">&lt;a></a>	 &lt;area>	 &lt;base>	 &lt;link><br>
-           <strong>Example:</strong><textarea>href="link | .class | #id"</textarea><br>
-           <strong>Tip:</strong> <textarea>You can use href="#top" or href="#" to link to the top of the current page!.
-you can use an image as a link.
-to link to an email address: href="mailto:someone@example.com" 
-a phone number: href="tel:+4733378901" 
-a JavaScript: href="javascript:alert('Hello World!');"</textarea>
+         <code id="href">راجع href</code> <span><br><strong> Elements: </strong> <a href="#aa">&lt;a></a>	 &lt;area>	 &lt;base>	 &lt;link><br><strong>Example:</strong><span class="d">href="link | .class | #id"</span><br>
+           <strong>Tip:</strong> <span class="d">You can use href="#top" or href="#" to link to the top of the current page!.<br>you can use an image as a link.<br>to link to an email address: href="mailto:someone@example.com" <br>a phone number: href="tel:+4733378901" <br>a JavaScript: href="javascript:alert('Hello World!');"</span>
          </span><br><br><br>
          
-         <code id="download">download</code><span><strong>Elements:</strong> <a href="#aa">&lt;a></a>, area <br><strong>Examples:</strong>       to Specify a name for the downloaded file: <br> download="اسم الملف"</span><br><br><br> 
+         <code id="download">download</code><span><br><strong>Elements:</strong> <a href="#aa">&lt;a></a>, area <br><strong>Examples:</strong>       to Specify a name for the downloaded file: <br> download="اسم الملف"</span><br><br><br> 
          
-          <code id="hreflang">hreflang</code><span><strong>Elements:</strong> <a href="#aa">&lt;a></a> <br><strong>Examples:</strong> hreflang="en" </span><br><br><br> 
+          <code id="hreflang">hreflang</code><span><br><strong>Elements:</strong> <a href="#aa">&lt;a></a> <br><strong>Examples:</strong> hreflang="en" </span><br><br><br> 
           
-          <code id="media">media</code><span><strong>Elements:</strong>
+          <code id="media">media</code><span><br><strong>Elements:</strong>
           <a href="#aa">&lt;a></a> <br><strong>Examples:</strong> <br> <strong>Values	Description:</strong></span>
           <table> 
           <thead>
@@ -536,9 +533,9 @@ a JavaScript: href="javascript:alert('Hello World!');"</textarea>
             </tr>
           </tbody>
           </table><br><br><br> 
-          <code id="ping">ping</code><span><strong>Elements:</strong>
+          <code id="ping">ping</code><span><br><strong>Elements:</strong>
           <a href="#aa">&lt;a></a> <br><strong>Examples:</strong> </span><br><br><br> 
-          <code id="rel">rel</code><span><strong>Elements:</strong>
+          <code id="rel">rel</code><span><br><strong>Elements:</strong>
           <a href="#aa">&lt;a></a> <br><strong>Examples:</strong><br><strong>Attribute Values</strong>
           </span>
           <table>
@@ -569,7 +566,7 @@ a JavaScript: href="javascript:alert('Hello World!');"</textarea>
           </table>
           <br><br><br> 
           
-         <code id="target">target</code><span><strong>Elements:</strong> <a href="#aa">&lt;a></a> <br><strong>Examples:</strong><br><strong>Attribute Values</strong>
+         <code id="target">target</code><span><br><strong>Elements:</strong> <a href="#aa">&lt;a></a> <br><strong>Examples:</strong><br><strong>Attribute Values</strong>
           </span><br><br><br>
           <table> 
           <thead>
@@ -586,14 +583,58 @@ a JavaScript: href="javascript:alert('Hello World!');"</textarea>
           </tbody>
           </table>
           
-          <code id="type">type</code><span><strong>Elements:</strong> <a href="#aa">&lt;a></a> <br><strong>Examples:</strong><br><strong>Attribute Values</strong>
+          <code id="type">type</code><span><br><strong>Elements:</strong> <a href="#aa">&lt;a></a> <br><strong>Examples:</strong><br><strong>Attribute Values</strong>
           </span><br><br><br>
           
-          <code id="coords">coords</code><span><strong>Elements:</strong> <a href="#area">&lt;area></a> <br><strong>Examples:</strong><br><strong>Attribute Values</strong>
+          <code id="coords">coords</code><span><br><strong>Elements:</strong> <a href="#area">&lt;area></a> <br><strong>Examples:</strong><br><strong>Attribute Values</strong>
           </span><br><br><br>
           
-          <code id="shape">shape</code><span><strong>Elements:</strong> <a href="">&lt;</a> <br><strong>Examples:</strong><br><strong>Attribute Values</strong>
-          </span><br><br><br>
+          <code id="shape">shape</code><span><br><strong>Elements:</strong> <a href="">&lt;</a> <br><strong>Examples:</strong><br><strong>Attribute Values</strong></span><br><br><br>
+          
+          <code id="usemap">usemap</code><span><br><strong>Description:</strong><span class="d"> specifies an image (or an object) as an image map (an image map is an image with clickable areas). <br> The usemap attribute is associated with a &lt;map> element's name or id attribute, and creates a relationship between the &lt;img> and the &lt;map>. </span><br><strong>Note:</strong><span class="d"> The attribute cannot be used if the &lt;img> element is a descendant of an &lt;a> or &lt;button> element. </span><br><strong>Elements:</strong><span class="d"><a href="#img">&lt;img></a>, <a href="#object">&lt;object></a></span><br><strong>Examples:</strong><br><strong>Attribute Values</strong></span><br><br><br>
+          
+          <code id="autoplay">autoplay</code><span><br><strong></strong><span class="d"></span></span><br><br><br>
+          <code id="controls">controls</code><span><br><strong></strong><span class="d"></span></span><br><br><br>
+          <code id="loop">loop</code><span><br><strong></strong><span class="d"></span></span><br><br><br>
+          <code id="muted">muted</code><span><br><strong></strong><span class="d"></span></span><br><br><br>
+          <code id="preload">preload</code><span><br><strong></strong><span class="d"></span></span><br><br><br>
+          <code id="src">src</code><span><br><strong></strong><span class="d"></span></span><br><br><br>
+          
+          <code id="cite-attribute">cite</code><span><br><strong>elements:</strong><span class="d"><a href="#blockquote">&lt;blockquote></a>, <a href="#del">&lt;del></a></span></span><br><br><br>
+          
+          <code id="autofocus">autofocus</code><span><br><strong>elements:</strong><span class="d"><a href="#button">&lt;button></a></span></span><br><br><br>
+          
+          <code id="disabled">disabled</code><span><br><strong>elements:</strong><span class="d"><a href="#button">&lt;button></a></span></span><br><br><br>
+          
+          <code id="form-attribute">form</code><span><br><strong>elements:</strong><span class="d"><a href="#button">&lt;button></a></span></span><br><br><br>
+          
+          <code id="formaction">formaction</code><span><br><strong>elements:</strong><span class="d"><a href="#button">&lt;button></a></span></span><br><br><br>
+          
+          <code id="formenctype">formenctype</code><span><br><strong>elements:</strong><span class="d"><a href="#button">&lt;button></a></span></span><br><br><br>
+          
+          <code id="formmethod">formmethod</code><span><br><strong>elements:</strong><span class="d"><a href="#button">&lt;button></a></span></span><br><br><br>
+          
+          <code id="formnovalidate">formnovalidate</code><span><br><strong>elements:</strong><span class="d"><a href="#button">&lt;button></a></span></span><br><br><br>
+          
+          <code id="formtarget">formtarget</code><span><br><strong>elements:</strong><span class="d"><a href="#button">&lt;button></a></span></span><br><br><br>
+          
+          <code id="popovertarget">popovertarget</code><span><br><strong>elements:</strong><span class="d"><a href="#button">&lt;button></a></span></span><br><br><br>
+          
+          <code id="popovertargetaction">popovertargetaction</code><span><br><strong>elements:</strong><span class="d"><a href="#button">&lt;button></a></span></span><br><br><br>
+          
+          <code id="name">name</code><span><br><strong>elements:</strong><span class="d"><a href="#button">&lt;button></a></span></span><br><br><br>
+          
+          <code id="value">value</code><span><br><strong>elements:</strong><span class="d"><a href="#button">&lt;button></a></span></span><br><br><br>
+          
+          <code id="height">height</code><span><br><strong>elements:</strong><span class="d"><a href="#canvas">&lt;canvas></a></span></span><br><br><br>
+          
+          <code id="width">width</code><span><br><strong>elements:</strong><span class="d"><a href="#canvas">&lt;canvas></a></span></span><br><br><br>
+          
+          <code id="span-attribute">span</code><span><br><strong>elements:</strong><span class="d"><a href="#col">&lt;col></a>, <a href="#colgroup">&lt;colgroup></a></span></span><br><br><br>
+          
+          <code id="datetime">datetime</code><span><br><strong>elements:</strong><span class="d"><a href="#del">&lt;del></a></span></span><br><br><br>
+          
+          <code id="open">open</code><span><br><strong>elements:</strong><span class="d"><a href="#details">&lt;details></a></span></span><br><br><br>
           
          </fieldset>
     </section>
@@ -603,41 +644,41 @@ a JavaScript: href="javascript:alert('Hello World!');"</textarea>
         
         <legend id="global-attributes"><h2>Global Attributes</h2></legend>
         
-          <code id="accesskey">accesskey</code><span><strong>Examples:</strong><br><strong>Attribute Values</strong> </span><br><br><br>
+          <code id="accesskey">accesskey</code><span><br><strong>Examples:</strong><br><strong>Attribute Values</strong> </span><br><br><br>
           
-          <code id="class">class</code><span><textarea>to link the elements with اكمل and no problem if they are duplicate it in the same document</textarea> <br><strong>Examples:</strong><br><strong>Attribute Values</strong> </span><br><br><br>
+          <code id="class">class</code><span><span class="d">to link the elements with اكمل and no problem if they are duplicate it in the same document</span> <br><strong>Examples:</strong><br><strong>Attribute Values</strong> </span><br><br><br>
           
-          <code id="contenteditable">contenteditable</code><span> <strong>Examples:</strong><br><strong>Attribute Values</strong> </span><br><br><br>
+          <code id="contenteditable">contenteditable</code><span> <br><strong>Examples:</strong><br><strong>Attribute Values</strong> </span><br><br><br>
           
-          <code id="data-*">data-*</code><span> <strong>Examples:</strong><br><strong>Attribute Values</strong> </span><br><br><br>
+          <code id="data-*">data-*</code><span> <br><strong>Examples:</strong><br><strong>Attribute Values</strong> </span><br><br><br>
           
-          <code id="dir">dir</code><span><strong>Examples:</strong><br><strong>Attribute Values</strong> </span><br><br><br>
+          <code id="dir">dir</code><span><br><strong>Examples:</strong><br><strong>Attribute Values</strong> </span><table><thead><tr><th>Value</th><th>Description</th></tr></thead><tbody><tr><td>ltr</td><td>Left-to-right text direction</td></tr><tr><td>rtl</td><td>Right-to-left text direction</td></tr></tbody></table><span></span><br><br><br>
           
-          <code id="draggable">draggable</code><span><strong>Examples:</strong><br><strong>Attribute Values</strong> </span><br><br><br>
+          <code id="draggable">draggable</code><span><br><strong>Examples:</strong><br><strong>Attribute Values</strong> </span><br><br><br>
           
-          <code id="enterkeyhint">enterkeyhint</code><span><strong>Examples:</strong><br><strong>Attribute Values</strong> </span><br><br><br>
+          <code id="enterkeyhint">enterkeyhint</code><span><br><strong>Examples:</strong><br><strong>Attribute Values</strong> </span><br><br><br>
           
-          <code id="hidden">hidden</code><span> <strong>Examples:</strong><br><strong>Attribute Values</strong> </span><br><br><br>
+          <code id="hidden">hidden</code><span> <br><strong>Examples:</strong><br><strong>Attribute Values</strong> </span><br><br><br>
           
-          <code id="id">id</code><span><textarea>to link the elements with CSS, JavaScript and should not be duplicate it in the same document</textarea>  <br><strong>Examples:</strong><br><strong>Attribute Values</strong> </span><br><br><br>
+          <code id="id">id</code><span><span class="d">to link the elements with CSS, JavaScript and should not be duplicate it in the same document</span>  <br><strong>Examples:</strong><br><strong>Attribute Values</strong> </span><br><br><br>
           
-          <code id="inert">inert</code><span>  <strong>Examples:</strong><br><strong>Attribute Values</strong> </span><br><br><br>
+          <code id="inert">inert</code><span>  <br><strong>Examples:</strong><br><strong>Attribute Values</strong> </span><br><br><br>
           
-          <code id="inputmode">inputmode</code><span>  <strong>Examples:</strong><br><strong>Attribute Values</strong> </span><br><br><br>
+          <code id="inputmode">inputmode</code><span>  <br><strong>Examples:</strong><br><strong>Attribute Values</strong> </span><br><br><br>
           
-          <code id="lang">lang</code><span><strong>Examples:</strong> <textarea>first two letters of the language for ex: English > en </textarea><br><strong>Attribute Values</strong> </span><br><br><br>
+          <code id="lang">lang</code><span><br><strong>Examples:</strong> <span class="d">first two letters of the language for ex: English > en </span><br><strong>Attribute Values</strong> </span><br><br><br>
           
-          <code id="popover">popover</code><span><strong>Examples:</strong><br><strong>Attribute Values</strong> </span><br><br><br>
+          <code id="popover">popover</code><span><br><strong>Examples:</strong><br><strong>Attribute Values</strong> </span><br><br><br>
           
-          <code id="spellcheck">spellcheck</code><span> <strong>Examples:</strong><br><strong>Attribute Values</strong> </span><br><br><br>
+          <code id="spellcheck">spellcheck</code><span> <br><strong>Examples:</strong><br><strong>Attribute Values</strong> </span><br><br><br>
           
-          <code id="style-attribute">style</code><span> <strong>Examples:</strong><textarea>style="property: value;"</textarea><br><strong>Attribute Values</strong> </span><br><br><br>
+          <code id="style-attribute">style</code><span> <br><strong>Examples:</strong><span class="d">style="property: value;"</span><br><strong>Attribute Values</strong> </span><br><br><br>
           
-          <code id="tabindex">tabindex</code><span>  <strong>Examples:</strong><br><strong>Attribute Values</strong> </span><br><br><br>
+          <code id="tabindex">tabindex</code><span>  <br><strong>Examples:</strong><br><strong>Attribute Values</strong> </span><br><br><br>
           
-             <code id="title-attribute">title</code><span> <strong>Examples:</strong><br><strong>Attribute Values</strong> </span><br><br><br>
+             <code id="title-attribute">title</code><span> <br><strong>Examples:</strong><br><strong>Attribute Values</strong> </span><br><br><br>
           
-          <code id="translate">translate</code><span> <textarea>is it allowed to translate this element or not</textarea><strong>Examples:</strong><textarea>translate=" yes | no "</textarea> </span><br><br><br>
+          <code id="translate">translate</code><span> <span class="d">is it allowed to translate this element or not</span><br><strong>Examples:</strong><span class="d">translate=" yes | no "</span> </span><br><br><br>
           
       </fieldset>
     </section>
@@ -645,7 +686,7 @@ a JavaScript: href="javascript:alert('Hello World!');"</textarea>
 </main>
 <footer>
   All Rights reserved to Bashir Ahbesh &reg;&copy;
-  <a href="#top" id="a"></a>
+  <a href="#top" id="bottoma"></a>
 </footer>
 </body>
 </html>
